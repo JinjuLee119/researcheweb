@@ -1,8 +1,0 @@
----
-title: "Introduction"
-author: "JJ"
-date: '2021 5 13 '
-output: html_document
----
-
-Introduction about the project.
