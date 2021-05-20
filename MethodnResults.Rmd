@@ -4,3 +4,5 @@ output: html_document
 ---
 
 Method & Results for this project.
+
+지금까지 배운 내용들 정리 (ex. Rstudio, git, rmarkdown 사용법, 합성생물학 데이터 수집 방법 등), submenu를 만들어서 각 주제별로 Rmd 파일 생성

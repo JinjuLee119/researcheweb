@@ -4,3 +4,4 @@ output: html_document
 ---
 
 Introduction for this project.
+#생물학의 반복성과 재현성 극복을 위한 소프트웨어 (R, Rstudio, Rmarkdown, git) 활용, 협업 (data sharing), 합성생물학 데이터 수집 등
