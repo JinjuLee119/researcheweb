@@ -3,26 +3,6 @@ title: "download"
 output: html_document
 ---
 
-```{r}
-library(tidyverse)
-
-ids <- c("aputron","gpemelianov","yoo-bh","seokjin-oh","treenbird19","jinjulee119")
-homedirs <- c(rep("researcheweb",6))
-destdir <- "download/"
-
-i <- 1
-url <- paste0("https://github.com/", ids[i],"/",homedirs[i],"/raw/main/partdb.xlsx")
-destfile <- paste0(destdir, ids[i], ".xlsx")
-download.file(url, destfile)
-
-for(i in 1:length(ids)){
-  url <- paste0("https://github.com/",ids[i], "/",homedirs[i], "/raw/main/partdb.xlsx")
-  destfile <- paste0(destdir, ids[i], ".xlsx")
-  try(download.file(url,destfile))
-  cat(i,"\n");flush.console()
-}
-```
-
 
 ```{r}
 library(readxl)
@@ -30,10 +10,29 @@ library(tidyverse)
 
 destdir <- "download/"
 filenames <- dir(path = destdir, pattern = "*.xlsx")
+full_filenames <- paste0(destdir, "/", filenames)
+sapply(full_filenames, file.remove)
 
+
+
+```
+
+```{r}
+ids <- c("hayleykim97","th-kim310","Lelp27","aputron","gpemelianov","yoo-bh","seokjin-oh","treenbird19","jinjulee119")
+homedirs <- c(rep("researcheweb",6))
+destdir <- "download/"
+
+for(i in 1:length(ids)){
+  url <- paste0("https://github.com/",ids[i], "/","researcheweb","/raw/main/",destdir,"partdb.xlsx")
+  destfile <- paste0(destdir, ids[i], "_partdb.xlsx")
+  tempfile <- paste0(destdir, "temp_",ids[i],"_partdb.xlsx")}
+
+filenames <- dir(path=destdir, pattern="*.xlsx")
+  
 tmp1 <- list()
 tmp2 <- list()
 tmp3 <- list()
+tmp4 <- list()
 
 
 for(i in 1:length(filenames)){
@@ -41,25 +40,12 @@ for(i in 1:length(filenames)){
   tmp1[[i]] <- read_excel(destfile, sheet=1, skip=0,col_names = T)
   tmp2[[i]] <- read_excel(destfile, sheet=2, skip=0,col_names = T)
   tmp3[[i]] <- read_excel(destfile, sheet=3, skip=0,col_names = T)
+  tmp4[[i]] <- read_excel(destfile, sheet=4, skip=0, col_names=T)
 }
 
-dat <- lapply(tmp1, function(x) mutate_at(x, .vars = c("year"), as.character))
-
-igem_team <- do.call(bind_rows, dat)
+igem_team <- do.call(bind_rows, tmp1)
 igem_part <- do.call(bind_rows, tmp2)
-igem_obs <- do.call(bind_rows, tmp3)
-
-
-```
-
-```{r}
-install.packages("writexl")
-library(writexl)
-
-write_xlsx(igem_team, path = "igem_team.xlsx")
-write_xlsx(igem_part, path = "igem_part.xlsx")
-write_xlsx(igem_obs, path = "igem_obs.xlsx")
-
-
+igem_device <- do.call(bind_rows, tmp3)
+igem_obs <- do.call(bind_rows, tmp4)
 ```
 
