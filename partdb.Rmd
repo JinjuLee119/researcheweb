@@ -19,13 +19,13 @@ sapply(full_filenames, file.remove)
 
 ```{r}
 ids <- c("hayleykim97","th-kim310","Lelp27","aputron","gpemelianov","yoo-bh","seokjin-oh","treenbird19","jinjulee119")
-homedirs <- c(rep("researcheweb",6))
 destdir <- "download/"
 
 for(i in 1:length(ids)){
   url <- paste0("https://github.com/",ids[i], "/","researcheweb","/raw/main/",destdir,"partdb.xlsx")
   destfile <- paste0(destdir, ids[i], "_partdb.xlsx")
-  tempfile <- paste0(destdir, "temp_",ids[i],"_partdb.xlsx")}
+  tempfile <- paste0(destdir, "temp_",ids[i],"_partdb.xlsx")
+}
 
 filenames <- dir(path=destdir, pattern="*.xlsx")
   
@@ -47,5 +47,7 @@ igem_team <- do.call(bind_rows, tmp1)
 igem_part <- do.call(bind_rows, tmp2)
 igem_device <- do.call(bind_rows, tmp3)
 igem_obs <- do.call(bind_rows, tmp4)
+
+
 ```
 
