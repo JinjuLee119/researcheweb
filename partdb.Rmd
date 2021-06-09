@@ -8,27 +8,25 @@ output: html_document
 library(readxl)
 library(tidyverse)
 
+ids <- c("th-kim310","Lelp27","aputron","gpemelianov","yoo-bh","seokjin-oh","treebird19","jinjulee119")
 destdir <- "download/"
-filenames <- dir(path = destdir, pattern = "*.xlsx")
-full_filenames <- paste0(destdir, "/", filenames)
-sapply(full_filenames, file.remove)
 
-
-
-```
-
-```{r}
-ids <- c("hayleykim97","th-kim310","Lelp27","aputron","gpemelianov","yoo-bh","seokjin-oh","treenbird19","jinjulee119")
-destdir <- "download/"
+igem_team_cols <- c("id","team_name","project","year","wiki")
+igem_part_cols <- c("id","BBid","type","link","backbone","device_id","team_id","user")
+igem_device_cols <- c("id","device_name","part_combination")
+igem_obs_cols <- c("id","strain","indc","conc","concunit","value","valunit","incubhr","incubtemp","device_id","link")
 
 for(i in 1:length(ids)){
   url <- paste0("https://github.com/",ids[i], "/","researcheweb","/raw/main/",destdir,"partdb.xlsx")
+  download.file(url, paste0(destdir, ids[i], "_partdb.xlsx"))
   destfile <- paste0(destdir, ids[i], "_partdb.xlsx")
   tempfile <- paste0(destdir, "temp_",ids[i],"_partdb.xlsx")
 }
 
-filenames <- dir(path=destdir, pattern="*.xlsx")
-  
+library(magrittr)
+
+filenames <- dir(path = "download/", pattern = "*_partdb.xlsx")
+
 tmp1 <- list()
 tmp2 <- list()
 tmp3 <- list()
@@ -37,10 +35,22 @@ tmp4 <- list()
 
 for(i in 1:length(filenames)){
   destfile <- paste0(destdir, filenames[i])
-  tmp1[[i]] <- read_excel(destfile, sheet=1, skip=0,col_names = T)
-  tmp2[[i]] <- read_excel(destfile, sheet=2, skip=0,col_names = T)
-  tmp3[[i]] <- read_excel(destfile, sheet=3, skip=0,col_names = T)
-  tmp4[[i]] <- read_excel(destfile, sheet=4, skip=0, col_names=T)
+  
+  tmp <- read_excel(destfile, sheet=1, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp1[[i]] <- tmp
+  
+  tmp <- read_excel(destfile, sheet=2, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp2[[i]] <- tmp
+  
+  tmp <- read_excel(destfile, sheet=3, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp3[[i]] <- tmp
+  
+  tmp <- read_excel(destfile, sheet=4, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp4[[i]] <- tmp
 }
 
 igem_team <- do.call(bind_rows, tmp1)
@@ -48,6 +58,10 @@ igem_part <- do.call(bind_rows, tmp2)
 igem_device <- do.call(bind_rows, tmp3)
 igem_obs <- do.call(bind_rows, tmp4)
 
+write.csv(igem_team, "igem_team.csv",quote=F, row.names=F)
+write.csv(igem_part, "igem_part.csv",quote=F, row.names=F)
+write.csv(igem_device, "igem_device.csv",quote=F, row.names=F)
+write.csv(igem_obs, "igem_obs.csv",quote=F, row.names=F)
 
 ```
 
