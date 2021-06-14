@@ -9,14 +9,6 @@ output: html_document
 
 library(tidyverse)
 
-x <- norm(100)
-y <- norm(100)
-g <- fractor(c(rep("g1",50),rep("g2",50)))
-z <- data.frame(x,y,ㅎ)
-z
-ggplot(z,aes(x,y,color=g))+
-  geom_point()
-
 filenames <- dir(path = "download/", pattern = "*_partdb.xlsx")
 
 tmp1 <- list()
@@ -33,14 +25,50 @@ for(i in 1:length(filenames)){
   tmp1[[i]] <- tmp %>% mutate(filename=filenames[i])
   
   tmp <- read_excel(destfile, sheet=2, skip=0, col_names=T)
+  igem_cols <- c("id","BBid","type","link","backbone","device_id","team_id","user")
+  if(length(names(tmp))==length(igem_cols)){
+    if(!isTRUE(all.equal(names(tmp),igem_cols))){
+      cat(i, ids[i],"check column names in the igem_part sheet\n")
+      flush.console()
+      flag <- FALSE
+    }
+  }else{
+    cat(i, ids[i], "check the number of columns in the igem_part sheet\n")
+    flush.console()
+    flag <-FALSE
+  }
   tmp %<>% mutate(across(!where(is.character), as.character))
   tmp2[[i]] <- tmp %>% mutate(filename=filenames[i])
   
   tmp <- read_excel(destfile, sheet=3, skip=0, col_names=T)
+  igem_cols <- c("id","device_name","part_combination")
+  if(length(names(tmp))==length(igem_cols)){
+    if(!isTRUE(all.equal(names(tmp),igem_cols))){
+      cat(i, ids[i],"check column names in the igen_obs sheet\n")
+      flush.console()
+      falg <- FALSE
+    }
+  }else{
+    cat(i, ids[i], "check the number of columns in the igem_obs sheet\n")
+    flush.console()
+    flag <- FALSE
+  }
   tmp %<>% mutate(across(!where(is.character), as.character))
   tmp3[[i]] <- tmp %>% mutate(filename=filenames[i])
   
   tmp <- read_excel(destfile, sheet=4, skip=0, col_names=T)
+  igem_cols <- c("id","strain","indc","conc","concunit","value","valunit","incubhr","incubtemp","device_id","link")
+  if(length(names(tmp))==length(igem_cols)){
+    if(!isTRUE(all.equal(names(tmp),igem_cols))){
+      cat(i, ids[i],"check column names in the igen_obs sheet\n")
+      flush.console()
+      falg <- FALSE
+    }
+  }else{
+    cat(i, ids[i], "check the number of columns in the igem_obs sheet\n")
+    flush.console()
+    flag <- FALSE
+  }
   tmp %<>% mutate(across(!where(is.character), as.character))
   tmp4[[i]] <- tmp %>% mutate(filename=filenames[i])
 }
@@ -61,13 +89,12 @@ tmpdat <- igem_part %>%
   full_join(igem_team, by=c("team_id"="id", "filename"="filename")) %>%
   select(id, BBid, type, backbone, device_id, user, filename, team_name, year) %>%
   drop_na()
-
 tmpdat %>% str
 
 tmpdat2 <- igem_obs %>%
   full_join(igem_device, by=c("device_id"="id", "filename"="filename")) %>%
+  select(id,strain,indc,conc,concunit,value,valunit,incubhr,incubtemp,device_id,device_name,part_combination,filename) %>%
   drop_na()
-
 tmpdat2 %>% str
 
 tmpdat %>%
@@ -89,7 +116,7 @@ tmpd <-tmpdat2 %>%
 finaldat <- tmpd
 finaldat %>% str
 
-tmpd <-tmpdat2 %>% 
+tmpd <- tmpdat2 %>% 
   mutate(partcomb = lapply(strsplit(tmpdat2$part_combination, split=","), as.numeric)) %>% 
   filter(unlist(lapply(partcomb, function(x){5 %in% x})) & filename=="gpemelianov_partdb.xlsx")
 
@@ -97,11 +124,10 @@ finaldat <- bind_rows(finaldat, tmpd)
 finaldat %>% str
 
 plotdat <- finaldat %>% 
-  select(-c(id, link, filename, part_combination, partcomb)) %>% 
+  select(-c(id, filename, part_combination, partcomb)) %>%
   mutate(value = as.numeric(value))
 
 plotdat %>% str
-
 
 datasummary <- plotdat %>% 
   group_by(indc, conc) %>% 
