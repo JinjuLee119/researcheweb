@@ -38,19 +38,19 @@ for(i in 1:length(filenames)){
   
   tmp <- read_excel(destfile, sheet=1, skip=0, col_names=T)
   tmp %<>% mutate(across(!where(is.character), as.character))
-  tmp1[[i]] <- tmp
+  tmp1[[i]] <- tmp %>% mutate(filename=filenames[i])
   
   tmp <- read_excel(destfile, sheet=2, skip=0, col_names=T)
   tmp %<>% mutate(across(!where(is.character), as.character))
-  tmp2[[i]] <- tmp
+  tmp2[[i]] <- tmp %>% mutate(filename=filenames[i])
   
   tmp <- read_excel(destfile, sheet=3, skip=0, col_names=T)
   tmp %<>% mutate(across(!where(is.character), as.character))
-  tmp3[[i]] <- tmp
+  tmp3[[i]] <- tmp %>% mutate(filename=filenames[i])
   
   tmp <- read_excel(destfile, sheet=4, skip=0, col_names=T)
   tmp %<>% mutate(across(!where(is.character), as.character))
-  tmp4[[i]] <- tmp
+  tmp4[[i]] <- tmp %>% mutate(filename=filenames[i])
 }
 
 igem_team <- do.call(bind_rows, tmp1)

@@ -5,3 +5,111 @@ date: '2021 6 10 '
 output: html_document
 ---
 
+```{r}
+
+library(tidyverse)
+
+x <- norm(100)
+y <- norm(100)
+g <- fractor(c(rep("g1",50),rep("g2",50)))
+z <- data.frame(x,y,ㅎ)
+z
+ggplot(z,aes(x,y,color=g))+
+  geom_point()
+
+filenames <- dir(path = "download/", pattern = "*_partdb.xlsx")
+
+tmp1 <- list()
+tmp2 <- list()
+tmp3 <- list()
+tmp4 <- list()
+
+
+for(i in 1:length(filenames)){
+  destfile <- paste0(destdir, filenames[i])
+  
+  tmp <- read_excel(destfile, sheet=1, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp1[[i]] <- tmp %>% mutate(filename=filenames[i])
+  
+  tmp <- read_excel(destfile, sheet=2, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp2[[i]] <- tmp %>% mutate(filename=filenames[i])
+  
+  tmp <- read_excel(destfile, sheet=3, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp3[[i]] <- tmp %>% mutate(filename=filenames[i])
+  
+  tmp <- read_excel(destfile, sheet=4, skip=0, col_names=T)
+  tmp %<>% mutate(across(!where(is.character), as.character))
+  tmp4[[i]] <- tmp %>% mutate(filename=filenames[i])
+}
+
+igem_team <- do.call(bind_rows, tmp1)
+igem_part <- do.call(bind_rows, tmp2)
+igem_device <- do.call(bind_rows, tmp3)
+igem_obs <- do.call(bind_rows, tmp4)
+
+library(tidyverse)
+
+tmpdat <- igem_part %>%
+  left_join(igem_team, by=c("team_id" = "id","filename" = "filename"))
+
+tmpdat %>% str
+
+tmpdat <- igem_part %>%
+  full_join(igem_team, by=c("team_id"="id", "filename"="filename")) %>%
+  select(id, BBid, type, backbone, device_id, user, filename, team_name, year) %>%
+  drop_na()
+
+tmpdat %>% str
+
+tmpdat2 <- igem_obs %>%
+  full_join(igem_device, by=c("device_id"="id", "filename"="filename")) %>%
+  drop_na()
+
+tmpdat2 %>% str
+
+tmpdat %>%
+  filter(BBid=="BBa_R0011")
+
+finaldat <- tmpdat2 %>%
+  mutate(partcomb = lapply(strsplit(tmpdat2$part_combination, split=","), as.numeric)) %>%
+  filter(unlist(lapply(partcomb, function(x){1 %in% x})) & filename=="aputron_partdb.xlsx")
+
+finaldat %>% str
+
+tmpdat %>%
+  filter(BBid=="BBa_I0500")
+
+tmpd <-tmpdat2 %>% 
+  mutate(partcomb = lapply(strsplit(tmpdat2$part_combination, split=","), as.numeric)) %>% 
+  filter(unlist(lapply(partcomb, function(x){1 %in% x})) & filename=="gpemelianov_partdb.xlsx")
+
+finaldat <- tmpd
+finaldat %>% str
+
+tmpd <-tmpdat2 %>% 
+  mutate(partcomb = lapply(strsplit(tmpdat2$part_combination, split=","), as.numeric)) %>% 
+  filter(unlist(lapply(partcomb, function(x){5 %in% x})) & filename=="gpemelianov_partdb.xlsx")
+
+finaldat <- bind_rows(finaldat, tmpd)
+finaldat %>% str
+
+plotdat <- finaldat %>% 
+  select(-c(id, link, filename, part_combination, partcomb)) %>% 
+  mutate(value = as.numeric(value))
+
+plotdat %>% str
+
+
+datasummary <- plotdat %>% 
+  group_by(indc, conc) %>% 
+  summarise(mean=mean(value), n=n()) 
+
+ggplot(datasummary, aes(x=conc, y=mean)) +
+  geom_bar(stat="identity") +
+  theme_bw()
+
+```
+
