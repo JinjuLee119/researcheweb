@@ -1,101 +1,101 @@
-id,strain,indc,conc,concunit,value,valunit,incubhr,incubtemp,device_id,link,promoter
-1,E. coli BL21 (DE3),IPTG,0,mM,17000,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-2,E. coli BL21 (DE3),IPTG,0.05,mM,22000,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-3,E. coli BL21 (DE3),IPTG,0.1,mM,23000,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-4,E. coli BL21 (DE3),IPTG,0.5,mM,22500,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-5,E. coli BL21 (DE3),IPTG,0,mM,16000,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-6,E. coli BL21 (DE3),IPTG,0.05,mM,24000,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-7,E. coli BL21 (DE3),IPTG,0.1,mM,25000,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-8,E. coli BL21 (DE3),IPTG,0.5,mM,24500,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-9,E. coli BL21 (DE3),IPTG,0,mM,16000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-10,E. coli BL21 (DE3),IPTG,0.05,mM,17000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-11,E. coli BL21 (DE3),IPTG,0.1,mM,20000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-12,E. coli BL21 (DE3),IPTG,0.5,mM,16000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,NA
-13,E.coli,IPTG,0,uM,0,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0011:Experience,NA
-14,E.coli,IPTG,0.1,uM,0,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0012:Experience,NA
-15,E.coli,IPTG,1,uM,500,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0013:Experience,NA
-16,E.coli,IPTG,10,uM,12000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0014:Experience,NA
-17,E.coli,IPTG,20,uM,20000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0015:Experience,NA
-18,E.coli,IPTG,40,uM,25000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0016:Experience,NA
-19,E.coli,IPTG,60,uM,26000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0017:Experience,NA
-20,E.coli,IPTG,80,uM,27000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0018:Experience,NA
-21,E.coli,IPTG,120,uM,27500,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0019:Experience,NA
-1,E.coli,Arabinose,0.02,mM,3000,Fluorescence,12,NA,1,https://2020.igem.org/Team:Jilin_China/Proof_Of_Concept,NA
-2,E.coli,Arabinose,0.2,mM,8200,Fluorescence,12,NA,1,https://2020.igem.org/Team:Jilin_China/Proof_Of_Concept,NA
-3,E.coli,Arabinose,2,mM,8000,Fluorescence,12,NA,1,https://2020.igem.org/Team:Jilin_China/Proof_Of_Concept,NA
-4,E.coli,Arabinose,0,mM,250,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,NA
-5,E.coli,Arabinose,0.001,mM,500,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,NA
-6,E.coli,Arabinose,0.005,mM,600,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,NA
-7,E.coli,Arabinose,0.01,mM,750,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,NA
-8,E.coli,Arabinose,0.05,mM,2000,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,NA
-9,E.coli,Arabinose,0.1,mM,5000,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,NA
-10,E.coli,Arabinose,1,mM,10000,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,NA
-1,cell-free,AHL,0.1,nM,1900-01-10,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
-2,cell-free,AHL,1,nM,1900-04-09,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
-3,cell-free,AHL,10,nM,2447-07-30,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
-4,cell-free,AHL,100,nM,2721-05-15,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
-5,cell-free,AHL,500,nM,2995-02-27,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
-6,cell-free,AHL,1000,nM,2858-04-06,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
-1,E. coli BL21 (DE3),HSL,0,mg/mL,1900-01-10,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,NA
-2,E. coli BL21 (DE3),HSL,0.001,mg/mL,1900-01-30,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,NA
-3,E. coli BL21 (DE3),HSL,0.002,mg/mL,1900-05-09,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,NA
-4,E. coli BL21 (DE3),HSL,0.01,mg/mL,1900-10-26,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,NA
-5,E. coli BL21 (DE3),HSL,0.1,mg/mL,1901-02-03,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,NA
-6,E. coli BL21 (DE3),HSL,1,mg/mL,1901-01-14,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,NA
-1,E. coli Nissle 1917,tet,600,ng/㎕,2858-04-06,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,NA
-2,E. coli Nissle 1917,tet,750,ng/㎕,2529-09-18,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,NA
-3,E. coli Nissle 1917,tet,900,ng/㎕,2392-10-26,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,NA
-4,E. coli Nissle 1917,tet,1200,ng/㎕,2310-09-07,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,NA
-1,E.coli BL21(DE3),IPTG,0,mM,17000,RPU,6,18,1,NA,NA
-2,E.coli BL21(DE3),IPTG,0.05,mM,22000,RPU,6,18,1,NA,NA
-3,E.coli BL21(DE3),IPTG,0.1,mM,23000,RPU,6,18,1,NA,NA
-4,E.coli BL21(DE3),IPTG,0.5,mM,22000,RPU,6,18,1,NA,NA
-5,E.coli BL21(DE3),IPTG,0,mM,15000,RPU,6,25,1,NA,NA
-6,E.coli BL21(DE3),IPTG,0.05,mM,24000,RPU,6,25,1,NA,NA
-7,E.coli BL21(DE3),IPTG,0.1,mM,25000,RPU,6,25,1,NA,NA
-8,E.coli BL21(DE3),IPTG,0.5,mM,24000,RPU,6,25,1,NA,NA
-9,E.coli BL21(DE3),IPTG,0,mM,15000,RPU,6,37,1,NA,NA
-10,E.coli BL21(DE3),IPTG,0.05,mM,17000,RPU,6,37,1,NA,NA
-11,E.coli BL21(DE3),IPTG,0.1,mM,20000,RPU,6,37,1,NA,NA
-12,E.coli BL21(DE3),IPTG,0.5,mM,16000,RPU,6,37,1,NA,NA
-13,W3110,FeCl3,0,mM,110000,RPU,16,37,2,NA,NA
-14,W3110,FeCl3,0,mM,1e+05,RPU,16,37,3,NA,NA
-15,W3110,FeCl3,100,mM,650000,RPU,16,37,2,NA,NA
-16,W3110,FeCl3,100,mM,7e+05,RPU,16,37,3,NA,NA
-1,-,cons,0,-,198.9,Fluorescence,12,37,1,https://2020.igem.org/Team:Tongji_China/Results,NA
-2,-,cons,0,-,47,Fluorescence,12,37,1,https://2020.igem.org/Team:Tongji_China/Results,NA
-3,-,cons,0,-,1,Fluorescence,12,37,1,https://2020.igem.org/Team:Tongji_China/Results,NA
-4,-,cons,0,-,950,Fluorescence,8,37,1,https://2020.igem.org/Team:BOKU-Vienna/Results,NA
-5,-,cons,0,-,1350,Fluorescence,8,37,2,https://2020.igem.org/Team:BOKU-Vienna/Results,NA
-6,-,cons,0,-,10,Fluorescence,8,37,3,https://2020.igem.org/Team:BOKU-Vienna/Results,NA
-7,-,cons,0,-,20,Fluorescence,8,37,2,https://2020.igem.org/Team:BOKU-Vienna/Results,NA
-8,-,cons,0,-,1500000,Fluorescence,19,37,2,http://2018.igem.org/wiki/images/f/fd/T--GreatBay_China--notebook_nepetalactol.pdf,NA
-9,-,cons,0,-,1e+06,Fluorescence,19,37,4,http://2018.igem.org/wiki/images/f/fd/T--GreatBay_China--notebook_nepetalactol.pdf,NA
-10,-,cons,0,-,1e+05,Fluorescence,19,37,5,http://2018.igem.org/wiki/images/f/fd/T--GreatBay_China--notebook_nepetalactol.pdf,NA
-1,E. coli,IPTG,0,mM,4.5,Relative fluorescence_RFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,NA
-2,E. coli,IPTG,0,mM,1.2,Relative fluorescence_GFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,NA
-3,E. coli,IPTG,0.5,mM,4.2,Relative fluorescence_RFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,NA
-4,E. coli,IPTG,0.5,mM,1.4,Relative fluorescence_GFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,NA
-5,E. coli,IPTG,1,mM,3.9,Relative fluorescence_RFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,NA
-6,E. coli,IPTG,1,mM,1.4,Relative fluorescence_GFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,NA
-7,E. coli,IPTG,0,mM,5000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,NA
-8,E. coli,IPTG,10,mM,15000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,NA
-9,S. typhi,IPTG,0,mM,15000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,NA
-10,S. typhi,IPTG,10,mM,15000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,NA
-11,E. coli MG1655,NA,NA,NA,7,RQ/gap,16,37,3,https://2019.igem.org/Team:Stuttgart/Contribution,NA
-1,E. coli,-,NA,-,0.06,uM Fluorescein/OD,6,37,1,http://parts.igem.org/Part:BBa_K2715119,NA
-2,-,-,NA,-,60,Fluorescence(a.u.),NA,25,2,http://parts.igem.org/Part:BBa_K2969050,NA
-3,-,-,NA,-,65,Fluorescence(a.u.),NA,30,2,http://parts.igem.org/Part:BBa_K2969050,NA
-4,-,-,NA,-,75,Fluorescence(a.u.),NA,34,2,http://parts.igem.org/Part:BBa_K2969050,NA
-5,-,-,NA,-,85,Fluorescence(a.u.),NA,37,2,http://parts.igem.org/Part:BBa_K2969050,NA
-6,-,-,NA,-,90,Fluorescence(a.u.),NA,40,2,http://parts.igem.org/Part:BBa_K2969050,NA
-7,-,-,NA,-,100,Fluorescence(a.u.),NA,42,2,http://parts.igem.org/Part:BBa_K2969050,NA
-8,-,-,NA,-,900,-,NA,NA,3,http://parts.igem.org/Part:BBa_K3440003,NA
-1,NA,Time,NA,NA,950,Fluorescence,5,NA,1,https://2019.igem.org/Team:Baltimore_BioCrew/Results,BBa_J23101
-2,NA,Time,NA,NA,1350,Fluorescence,7,NA,1,https://2019.igem.org/Team:Baltimore_BioCrew/Results,BBa_J23101
-3,NA,Time,NA,NA,10,Fluorescence,5,NA,2,https://2019.igem.org/Team:Baltimore_BioCrew/Results,BBa_J23105
-4,NA,Time,NA,NA,20,Fluorescence,7,NA,2,https://2019.igem.org/Team:Baltimore_BioCrew/Results,BBa_J23105
-5,NA,copy number,NA,NA,500,Fluorescence,NA,NA,3,https://2020.igem.org/Team:BOKU-Vienna/Results,BBa_J23101
-6,NA,copy number,NA,NA,1000,Fluorescence,NA,NA,3,https://2020.igem.org/Team:BOKU-Vienna/Results,BBa_J23101
-7,NA,copy number,NA,NA,50,Fluorescence,NA,NA,4,https://2020.igem.org/Team:BOKU-Vienna/Results,BBa_J23105
-8,NA,copy number,NA,NA,100,Fluorescence,NA,NA,4,https://2020.igem.org/Team:BOKU-Vienna/Results,BBa_J23105
+id,strain,indc,conc,concunit,value,valunit,incubhr,incubtemp,device_id,link,filename,promoter
+1,E. coli BL21 (DE3),IPTG,0,mM,17000,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+2,E. coli BL21 (DE3),IPTG,0.05,mM,22000,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+3,E. coli BL21 (DE3),IPTG,0.1,mM,23000,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+4,E. coli BL21 (DE3),IPTG,0.5,mM,22500,Fluorescence/OD600,6,18,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+5,E. coli BL21 (DE3),IPTG,0,mM,16000,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+6,E. coli BL21 (DE3),IPTG,0.05,mM,24000,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+7,E. coli BL21 (DE3),IPTG,0.1,mM,25000,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+8,E. coli BL21 (DE3),IPTG,0.5,mM,24500,Fluorescence/OD600,6,25,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+9,E. coli BL21 (DE3),IPTG,0,mM,16000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+10,E. coli BL21 (DE3),IPTG,0.05,mM,17000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+11,E. coli BL21 (DE3),IPTG,0.1,mM,20000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+12,E. coli BL21 (DE3),IPTG,0.5,mM,16000,Fluorescence/OD600,6,37,D0001,https://2019.igem.org/Team:ZJU-China/Measurement,aputron_partdb.xlsx,NA
+13,E.coli,IPTG,0,uM,0,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0011:Experience,aputron_partdb.xlsx,NA
+14,E.coli,IPTG,0.1,uM,0,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0012:Experience,aputron_partdb.xlsx,NA
+15,E.coli,IPTG,1,uM,500,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0013:Experience,aputron_partdb.xlsx,NA
+16,E.coli,IPTG,10,uM,12000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0014:Experience,aputron_partdb.xlsx,NA
+17,E.coli,IPTG,20,uM,20000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0015:Experience,aputron_partdb.xlsx,NA
+18,E.coli,IPTG,40,uM,25000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0016:Experience,aputron_partdb.xlsx,NA
+19,E.coli,IPTG,60,uM,26000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0017:Experience,aputron_partdb.xlsx,NA
+20,E.coli,IPTG,80,uM,27000,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0018:Experience,aputron_partdb.xlsx,NA
+21,E.coli,IPTG,120,uM,27500,Mean Fluoresence (a.u),12,37,D0001,http://parts.igem.org/Part:BBa_R0019:Experience,aputron_partdb.xlsx,NA
+1,E.coli,Arabinose,0.02,mM,3000,Fluorescence,12,NA,1,https://2020.igem.org/Team:Jilin_China/Proof_Of_Concept,gpemelianov_partdb.xlsx,NA
+2,E.coli,Arabinose,0.2,mM,8200,Fluorescence,12,NA,1,https://2020.igem.org/Team:Jilin_China/Proof_Of_Concept,gpemelianov_partdb.xlsx,NA
+3,E.coli,Arabinose,2,mM,8000,Fluorescence,12,NA,1,https://2020.igem.org/Team:Jilin_China/Proof_Of_Concept,gpemelianov_partdb.xlsx,NA
+4,E.coli,Arabinose,0,mM,250,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,gpemelianov_partdb.xlsx,NA
+5,E.coli,Arabinose,0.001,mM,500,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,gpemelianov_partdb.xlsx,NA
+6,E.coli,Arabinose,0.005,mM,600,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,gpemelianov_partdb.xlsx,NA
+7,E.coli,Arabinose,0.01,mM,750,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,gpemelianov_partdb.xlsx,NA
+8,E.coli,Arabinose,0.05,mM,2000,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,gpemelianov_partdb.xlsx,NA
+9,E.coli,Arabinose,0.1,mM,5000,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,gpemelianov_partdb.xlsx,NA
+10,E.coli,Arabinose,1,mM,10000,a.u.,4,37,2,https://2019.igem.org/Team:BHSF_ND/Project/Leakage#ct3,gpemelianov_partdb.xlsx,NA
+1,cell-free,AHL,0.1,nM,1900-01-10,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,jinjulee119_partdb.xlsx,NA
+2,cell-free,AHL,1,nM,1900-04-09,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,jinjulee119_partdb.xlsx,NA
+3,cell-free,AHL,10,nM,2447-07-30,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,jinjulee119_partdb.xlsx,NA
+4,cell-free,AHL,100,nM,2721-05-15,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,jinjulee119_partdb.xlsx,NA
+5,cell-free,AHL,500,nM,2995-02-27,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,jinjulee119_partdb.xlsx,NA
+6,cell-free,AHL,1000,nM,2858-04-06,FLU,15,37,1,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,jinjulee119_partdb.xlsx,NA
+1,E. coli BL21 (DE3),HSL,0,mg/mL,1900-01-10,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,jinjulee119_partdb.xlsx,NA
+2,E. coli BL21 (DE3),HSL,0.001,mg/mL,1900-01-30,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,jinjulee119_partdb.xlsx,NA
+3,E. coli BL21 (DE3),HSL,0.002,mg/mL,1900-05-09,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,jinjulee119_partdb.xlsx,NA
+4,E. coli BL21 (DE3),HSL,0.01,mg/mL,1900-10-26,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,jinjulee119_partdb.xlsx,NA
+5,E. coli BL21 (DE3),HSL,0.1,mg/mL,1901-02-03,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,jinjulee119_partdb.xlsx,NA
+6,E. coli BL21 (DE3),HSL,1,mg/mL,1901-01-14,fluorescence(a.u.),10,37,2,https://2020.igem.org/Team:OUC-China/Results,jinjulee119_partdb.xlsx,NA
+1,E. coli Nissle 1917,tet,600,ng/㎕,2858-04-06,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,jinjulee119_partdb.xlsx,NA
+2,E. coli Nissle 1917,tet,750,ng/㎕,2529-09-18,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,jinjulee119_partdb.xlsx,NA
+3,E. coli Nissle 1917,tet,900,ng/㎕,2392-10-26,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,jinjulee119_partdb.xlsx,NA
+4,E. coli Nissle 1917,tet,1200,ng/㎕,2310-09-07,MEFL/particle,7,37,3,https://2019.igem.org/Team:Fudan/,jinjulee119_partdb.xlsx,NA
+1,E.coli BL21(DE3),IPTG,0,mM,17000,RPU,6,18,1,NA,Lelp27_partdb.xlsx,NA
+2,E.coli BL21(DE3),IPTG,0.05,mM,22000,RPU,6,18,1,NA,Lelp27_partdb.xlsx,NA
+3,E.coli BL21(DE3),IPTG,0.1,mM,23000,RPU,6,18,1,NA,Lelp27_partdb.xlsx,NA
+4,E.coli BL21(DE3),IPTG,0.5,mM,22000,RPU,6,18,1,NA,Lelp27_partdb.xlsx,NA
+5,E.coli BL21(DE3),IPTG,0,mM,15000,RPU,6,25,1,NA,Lelp27_partdb.xlsx,NA
+6,E.coli BL21(DE3),IPTG,0.05,mM,24000,RPU,6,25,1,NA,Lelp27_partdb.xlsx,NA
+7,E.coli BL21(DE3),IPTG,0.1,mM,25000,RPU,6,25,1,NA,Lelp27_partdb.xlsx,NA
+8,E.coli BL21(DE3),IPTG,0.5,mM,24000,RPU,6,25,1,NA,Lelp27_partdb.xlsx,NA
+9,E.coli BL21(DE3),IPTG,0,mM,15000,RPU,6,37,1,NA,Lelp27_partdb.xlsx,NA
+10,E.coli BL21(DE3),IPTG,0.05,mM,17000,RPU,6,37,1,NA,Lelp27_partdb.xlsx,NA
+11,E.coli BL21(DE3),IPTG,0.1,mM,20000,RPU,6,37,1,NA,Lelp27_partdb.xlsx,NA
+12,E.coli BL21(DE3),IPTG,0.5,mM,16000,RPU,6,37,1,NA,Lelp27_partdb.xlsx,NA
+13,W3110,FeCl3,0,mM,110000,RPU,16,37,2,NA,Lelp27_partdb.xlsx,NA
+14,W3110,FeCl3,0,mM,1e+05,RPU,16,37,3,NA,Lelp27_partdb.xlsx,NA
+15,W3110,FeCl3,100,mM,650000,RPU,16,37,2,NA,Lelp27_partdb.xlsx,NA
+16,W3110,FeCl3,100,mM,7e+05,RPU,16,37,3,NA,Lelp27_partdb.xlsx,NA
+1,-,cons,0,-,198.9,Fluorescence,12,37,1,https://2020.igem.org/Team:Tongji_China/Results,seokjin-oh_partdb.xlsx,NA
+2,-,cons,0,-,47,Fluorescence,12,37,1,https://2020.igem.org/Team:Tongji_China/Results,seokjin-oh_partdb.xlsx,NA
+3,-,cons,0,-,1,Fluorescence,12,37,1,https://2020.igem.org/Team:Tongji_China/Results,seokjin-oh_partdb.xlsx,NA
+4,-,cons,0,-,950,Fluorescence,8,37,1,https://2020.igem.org/Team:BOKU-Vienna/Results,seokjin-oh_partdb.xlsx,NA
+5,-,cons,0,-,1350,Fluorescence,8,37,2,https://2020.igem.org/Team:BOKU-Vienna/Results,seokjin-oh_partdb.xlsx,NA
+6,-,cons,0,-,10,Fluorescence,8,37,3,https://2020.igem.org/Team:BOKU-Vienna/Results,seokjin-oh_partdb.xlsx,NA
+7,-,cons,0,-,20,Fluorescence,8,37,2,https://2020.igem.org/Team:BOKU-Vienna/Results,seokjin-oh_partdb.xlsx,NA
+8,-,cons,0,-,1500000,Fluorescence,19,37,2,http://2018.igem.org/wiki/images/f/fd/T--GreatBay_China--notebook_nepetalactol.pdf,seokjin-oh_partdb.xlsx,NA
+9,-,cons,0,-,1e+06,Fluorescence,19,37,4,http://2018.igem.org/wiki/images/f/fd/T--GreatBay_China--notebook_nepetalactol.pdf,seokjin-oh_partdb.xlsx,NA
+10,-,cons,0,-,1e+05,Fluorescence,19,37,5,http://2018.igem.org/wiki/images/f/fd/T--GreatBay_China--notebook_nepetalactol.pdf,seokjin-oh_partdb.xlsx,NA
+1,E. coli,IPTG,0,mM,4.5,Relative fluorescence_RFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,th-kim310_partdb.xlsx,NA
+2,E. coli,IPTG,0,mM,1.2,Relative fluorescence_GFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,th-kim310_partdb.xlsx,NA
+3,E. coli,IPTG,0.5,mM,4.2,Relative fluorescence_RFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,th-kim310_partdb.xlsx,NA
+4,E. coli,IPTG,0.5,mM,1.4,Relative fluorescence_GFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,th-kim310_partdb.xlsx,NA
+5,E. coli,IPTG,1,mM,3.9,Relative fluorescence_RFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,th-kim310_partdb.xlsx,NA
+6,E. coli,IPTG,1,mM,1.4,Relative fluorescence_GFP,16,37,1,https://https://2019.igem.org/Team:Aboa/Contribution,th-kim310_partdb.xlsx,NA
+7,E. coli,IPTG,0,mM,5000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,th-kim310_partdb.xlsx,NA
+8,E. coli,IPTG,10,mM,15000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,th-kim310_partdb.xlsx,NA
+9,S. typhi,IPTG,0,mM,15000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,th-kim310_partdb.xlsx,NA
+10,S. typhi,IPTG,10,mM,15000,Fluorescence,16,NA,2,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,th-kim310_partdb.xlsx,NA
+11,E. coli MG1655,NA,NA,NA,7,RQ/gap,16,37,3,https://2019.igem.org/Team:Stuttgart/Contribution,th-kim310_partdb.xlsx,NA
+1,E. coli,-,NA,-,0.06,uM Fluorescein/OD,6,37,1,http://parts.igem.org/Part:BBa_K2715119,treebird19_partdb.xlsx,NA
+2,-,-,NA,-,60,Fluorescence(a.u.),NA,25,2,http://parts.igem.org/Part:BBa_K2969050,treebird19_partdb.xlsx,NA
+3,-,-,NA,-,65,Fluorescence(a.u.),NA,30,2,http://parts.igem.org/Part:BBa_K2969050,treebird19_partdb.xlsx,NA
+4,-,-,NA,-,75,Fluorescence(a.u.),NA,34,2,http://parts.igem.org/Part:BBa_K2969050,treebird19_partdb.xlsx,NA
+5,-,-,NA,-,85,Fluorescence(a.u.),NA,37,2,http://parts.igem.org/Part:BBa_K2969050,treebird19_partdb.xlsx,NA
+6,-,-,NA,-,90,Fluorescence(a.u.),NA,40,2,http://parts.igem.org/Part:BBa_K2969050,treebird19_partdb.xlsx,NA
+7,-,-,NA,-,100,Fluorescence(a.u.),NA,42,2,http://parts.igem.org/Part:BBa_K2969050,treebird19_partdb.xlsx,NA
+8,-,-,NA,-,900,-,NA,NA,3,http://parts.igem.org/Part:BBa_K3440003,treebird19_partdb.xlsx,NA
+1,NA,Time,NA,NA,950,Fluorescence,5,NA,1,https://2019.igem.org/Team:Baltimore_BioCrew/Results,yoo-bh_partdb.xlsx,BBa_J23101
+2,NA,Time,NA,NA,1350,Fluorescence,7,NA,1,https://2019.igem.org/Team:Baltimore_BioCrew/Results,yoo-bh_partdb.xlsx,BBa_J23101
+3,NA,Time,NA,NA,10,Fluorescence,5,NA,2,https://2019.igem.org/Team:Baltimore_BioCrew/Results,yoo-bh_partdb.xlsx,BBa_J23105
+4,NA,Time,NA,NA,20,Fluorescence,7,NA,2,https://2019.igem.org/Team:Baltimore_BioCrew/Results,yoo-bh_partdb.xlsx,BBa_J23105
+5,NA,copy number,NA,NA,500,Fluorescence,NA,NA,3,https://2020.igem.org/Team:BOKU-Vienna/Results,yoo-bh_partdb.xlsx,BBa_J23101
+6,NA,copy number,NA,NA,1000,Fluorescence,NA,NA,3,https://2020.igem.org/Team:BOKU-Vienna/Results,yoo-bh_partdb.xlsx,BBa_J23101
+7,NA,copy number,NA,NA,50,Fluorescence,NA,NA,4,https://2020.igem.org/Team:BOKU-Vienna/Results,yoo-bh_partdb.xlsx,BBa_J23105
+8,NA,copy number,NA,NA,100,Fluorescence,NA,NA,4,https://2020.igem.org/Team:BOKU-Vienna/Results,yoo-bh_partdb.xlsx,BBa_J23105

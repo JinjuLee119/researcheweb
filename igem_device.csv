@@ -1,26 +1,26 @@
-id,device_name,part_combination
-1,D0001,1, 2, 3
-2,D0002,4, 5
-1,D0001,1,2,3,4
-2,D0002,5,6
-1,D0001,1,2,3,4,5,6,7
-2,D0002,8,9
-3,D0003,10,11,12,13
-1,K0001,1
-2,K0002,5
-3,K0003,6
-1,d0001,1,2,3,4
-2,d0002,5,7,8
-3,d0003,6
-4,d0004,9
-5,d0005,10
-1,d0001,1,2
-2,d0002,3,4,5,6
-3,d0003,7
-1,D0001,1,2,3,4
-2,D0002,5,6,7,8,9
-3,D0003,10,11,12,13
-1,d0001,1,2,3
-2,d0002,4,5,6
-3,d0003,7,8,9
-4,d0004,10,11,12
+id,device_name,part_combination,filename
+1,D0001,1, 2, 3,aputron_partdb.xlsx
+2,D0002,4, 5,aputron_partdb.xlsx
+1,D0001,1,2,3,4,gpemelianov_partdb.xlsx
+2,D0002,5,6,gpemelianov_partdb.xlsx
+1,D0001,1,2,3,4,5,6,7,jinjulee119_partdb.xlsx
+2,D0002,8,9,jinjulee119_partdb.xlsx
+3,D0003,10,11,12,13,jinjulee119_partdb.xlsx
+1,K0001,1,Lelp27_partdb.xlsx
+2,K0002,5,Lelp27_partdb.xlsx
+3,K0003,6,Lelp27_partdb.xlsx
+1,d0001,1,2,3,4,seokjin-oh_partdb.xlsx
+2,d0002,5,7,8,seokjin-oh_partdb.xlsx
+3,d0003,6,seokjin-oh_partdb.xlsx
+4,d0004,9,seokjin-oh_partdb.xlsx
+5,d0005,10,seokjin-oh_partdb.xlsx
+1,d0001,1,2,th-kim310_partdb.xlsx
+2,d0002,3,4,5,6,th-kim310_partdb.xlsx
+3,d0003,7,th-kim310_partdb.xlsx
+1,D0001,1,2,3,4,treebird19_partdb.xlsx
+2,D0002,5,6,7,8,9,treebird19_partdb.xlsx
+3,D0003,10,11,12,13,treebird19_partdb.xlsx
+1,d0001,1,2,3,yoo-bh_partdb.xlsx
+2,d0002,4,5,6,yoo-bh_partdb.xlsx
+3,d0003,7,8,9,yoo-bh_partdb.xlsx
+4,d0004,10,11,12,yoo-bh_partdb.xlsx

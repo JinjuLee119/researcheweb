@@ -1,73 +1,73 @@
-id,BBid,type,link,backbone,device_id,team_id,user
-1,BBa_R0011,Promoter,http://parts.igem.org/Part:BBa_R0011,pSB1C3,1,1,aputron
-2,BBa_C0012,GFP,http://parts.igem.org/Part:BBa_C0012,pSB1C3,1,1,aputron
-3,BBa_B0054,Terminator,http://parts.igem.org/Part:BBa_B0054,pSB1C3,1,1,aputron
-4,BBa_R0011,Promoter,http://parts.igem.org/Part:BBa_R0011,pCDF,2,2,aputron
-5,Bba_K1062004,Csy4,http://parts.igem.org/Part:BBa_R0011,pACYC,2,2,aputron
-1,BBa_I0500,Promoter,http://parts.igem.org/Part:BBa_I0500,NA,1,1,gpemelianov
-2,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,NA,1,1,gpemelianov
-3,BBa_K2541400,Reporter,http://parts.igem.org/Part:BBa_K2541400,NA,1,1,gpemelianov
-4,BBa_B0015,Terminator,http://parts.igem.org/Part:BBa_B0015,NA,1,1,gpemelianov
-5,BBa_I0500,Promoter,http://parts.igem.org/Part:BBa_I0500,pSC101,2,2,gpemelianov
-6,BBa_K3202022,Reporter,http://parts.igem.org/Part:BBa_K3202022,pSC101,2,2,gpemelianov
-1,BBa_J23101,promoter,http://parts.igem.org/Part:BBa_J23101,PSB3K3,1,1,JinjuLee119
-2,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,PSB3K3,1,1,JinjuLee119
-3,BBa_C0062,regulatory,http://parts.igem.org/Part:BBa_C0062,PSB3K3,1,1,JinjuLee119
-4,BBa_B0015,terminator,http://parts.igem.org/Part:BBa_B0015,PSB3K3,1,1,JinjuLee119
-5,BBa_R0062,promoter,http://parts.igem.org/Part:BBa_R0062,PSB3K3,1,1,JinjuLee119
-6,BBa_I732017,coding,http://parts.igem.org/Part:BBa_I732017,PSB3K3,1,1,JinjuLee119
-7,BBa_B0015,terminator,http://parts.igem.org/Part:BBa_B0015,PSB3K3,1,1,JinjuLee119
-8,BBa_R0062,Regulatory,http://parts.igem.org/Part:BBa_R0062,pACYC184,2,2,JinjuLee119
-9,BBa_K3328031,Reporter,http://parts.igem.org/Part:BBa_K3328031,pACYC184,2,2,JinjuLee119
-10,BBa_R0040,promoter,http://parts.igem.org/Part:BBa_R0040,PSB3C5,3,3,JinjuLee119
-11,BBa_B0034,RBS,http://parts.igem.org/Part:Bba_B0034,PSB3C5,3,3,JinjuLee119
-12,BBa_K3245008,coding,http://parts.igem.org/Part:BBa_K3245008,PSB3C5,3,3,JinjuLee119
-13,BBa_B0014,terminator,http://parts.igem.org/Part:BBa_B0014,PSB3C5,3,3,JinjuLee119
-1,BBa_R0011,Promoter,http://parts.igem.org/Part:BBa_R0011,pSB1C3 ,K0001,1,kun
-2,BBa_K3669005,Promoter,Pcox4 promoter,NA,NA,4,kun
-3,BBa_K3669006,Promoter,Pmin minimal gpdA promoter,NA,NA,4,kun
-4,BBa_K3669012,CDS,sfGFP,NA,NA,4,kun
-5,BBa_J23100,Promoter,http://parts.igem.org/Part:BBa_J23100,pSB1C3 ,K0002,6,kun
-6,BBa_J23106,Promoter,http://parts.igem.org/Part:BBa_J23106,pSB1C3 ,K0003,6,kun
-1,BBa_R0051,Promoter,http://parts.igem.org/Part:BBa_R0051,pSB1C3,1,1,seokjin-oh
-2,BBa_R0034,RBS,http://parts.igem.org/Part:BBa_R0034,pSB1C3,1,1,seokjin-oh
-3,BBa_E1010,RFP,http://parts.igem.org/Part:BBa_E1010,pSB1C3,1,1,seokjin-oh
-4,BBa_R0015,Terminator,http://parts.igem.org/Part:BBa_R0015,pSB1C3,1,1,seokjin-oh
-5,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,-,2,2,yoo-bh
-6,BBa_J231059,Promoter,http://parts.igem.org/Part:BBa_J231059,-,3,3,yoo-bh
-7,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,-,2,2,yoo-bh
-8,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,-,2,2,yoo-bh
-9,BBa_J23119,Promoter,http://parts.igem.org/Part:BBa_J23119,pUC20,4,4,seokjin-oh
-10,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,pUC20,5,5,seokjin-oh
-1,BBa_R0010,Promoter,http://parts.igem.org/Part:BBa_R0010,NA,1,1,th-kim310
-2,BBa_K5670184,Reporter,http://parts.igem.org/Part:BBa_K5670184,NA,1,1,th-kim310
-3,BBa_R0010,Promoter,http://parts.igem.org/Part:BBa_R0010,NA,2,2,th-kim310
-4,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,NA,2,2,th-kim310
-5,BBa_E1010,RFP,http://parts.igem.org/Part:BBa_E1010,NA,2,2,th-kim310
-6,BBa_B0054,Terminator,http://parts.igem.org/Part:BBa_B0054,NA,2,2,th-kim310
-7,BBa_J23100,Promoter,http://parts.igem.org/Part:BBa_J23100,BBa_J61002,3,3,th-kim310
-1,BBa_J23119,Promoter,http://parts.igem.org/Part:BBa_J23119,pMTL84151,1,1,sb.h
-2,BBa_K2715010,RBS,http://parts.igem.org/Part:BBa_K2715010,pMTL84151,1,1,sb.h
-3,BBa_E0040,GFP,http://parts.igem.org/Part:BBa_E0040,pMTL84151,1,1,sb.h
-4,-,Terminator,-,pMTL84151,1,1,sb.h
-5,BBa_J23119,Promoter,http://parts.igem.org/Part:BBa_J23119,-,2,2,sb.h
-6,BBa_K2969998,RBS,http://parts.igem.org/Part:BBa_K2969998,-,2,2,sb.h
-7,BBa_K2969020,TEVsite,http://parts.igem.org/Part:BBa_K2969020,-,2,2,sb.h
-8,BBa_I746916,sfGFP,http://parts.igem.org/Part:BBa_I746916,-,2,2,sb.h
-9,BBa_K2969991,Terminator,http://parts.igem.org/Part:BBa_K2969991,-,2,2,sb.h
-10,BBa_R0062,Promoter,http://parts.igem.org/Part:BBa_R0062,-,3,3,sb.h
-11,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,-,3,3,sb.h
-12,BBa_E0040,GFP,http://parts.igem.org/Part:BBa_E0040,-,3,3,sb.h
-13,-,Terminator,-,-,3,3,sb.h
-1,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,NA,1,1,yoo-bh
-2,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,1,1,yoo-bh
-3,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,1,1,yoo-bh
-4,BBa_J23105,Promoter,http://parts.igem.org/Part:BBa_J23105,NA,2,1,yoo-bh
-5,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,2,1,yoo-bh
-6,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,2,1,yoo-bh
-7,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,NA,3,2,yoo-bh
-8,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,3,2,yoo-bh
-9,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,3,2,yoo-bh
-10,BBa_J23105,Promoter,http://parts.igem.org/Part:BBa_J23105,NA,4,2,yoo-bh
-11,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,4,2,yoo-bh
-12,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,4,2,yoo-bh
+id,BBid,type,link,backbone,device_id,team_id,user,filename
+1,BBa_R0011,Promoter,http://parts.igem.org/Part:BBa_R0011,pSB1C3,1,1,aputron,aputron_partdb.xlsx
+2,BBa_C0012,GFP,http://parts.igem.org/Part:BBa_C0012,pSB1C3,1,1,aputron,aputron_partdb.xlsx
+3,BBa_B0054,Terminator,http://parts.igem.org/Part:BBa_B0054,pSB1C3,1,1,aputron,aputron_partdb.xlsx
+4,BBa_R0011,Promoter,http://parts.igem.org/Part:BBa_R0011,pCDF,2,2,aputron,aputron_partdb.xlsx
+5,Bba_K1062004,Csy4,http://parts.igem.org/Part:BBa_R0011,pACYC,2,2,aputron,aputron_partdb.xlsx
+1,BBa_I0500,Promoter,http://parts.igem.org/Part:BBa_I0500,NA,1,1,gpemelianov,gpemelianov_partdb.xlsx
+2,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,NA,1,1,gpemelianov,gpemelianov_partdb.xlsx
+3,BBa_K2541400,Reporter,http://parts.igem.org/Part:BBa_K2541400,NA,1,1,gpemelianov,gpemelianov_partdb.xlsx
+4,BBa_B0015,Terminator,http://parts.igem.org/Part:BBa_B0015,NA,1,1,gpemelianov,gpemelianov_partdb.xlsx
+5,BBa_I0500,Promoter,http://parts.igem.org/Part:BBa_I0500,pSC101,2,2,gpemelianov,gpemelianov_partdb.xlsx
+6,BBa_K3202022,Reporter,http://parts.igem.org/Part:BBa_K3202022,pSC101,2,2,gpemelianov,gpemelianov_partdb.xlsx
+1,BBa_J23101,promoter,http://parts.igem.org/Part:BBa_J23101,PSB3K3,1,1,JinjuLee119,jinjulee119_partdb.xlsx
+2,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,PSB3K3,1,1,JinjuLee119,jinjulee119_partdb.xlsx
+3,BBa_C0062,regulatory,http://parts.igem.org/Part:BBa_C0062,PSB3K3,1,1,JinjuLee119,jinjulee119_partdb.xlsx
+4,BBa_B0015,terminator,http://parts.igem.org/Part:BBa_B0015,PSB3K3,1,1,JinjuLee119,jinjulee119_partdb.xlsx
+5,BBa_R0062,promoter,http://parts.igem.org/Part:BBa_R0062,PSB3K3,1,1,JinjuLee119,jinjulee119_partdb.xlsx
+6,BBa_I732017,coding,http://parts.igem.org/Part:BBa_I732017,PSB3K3,1,1,JinjuLee119,jinjulee119_partdb.xlsx
+7,BBa_B0015,terminator,http://parts.igem.org/Part:BBa_B0015,PSB3K3,1,1,JinjuLee119,jinjulee119_partdb.xlsx
+8,BBa_R0062,Regulatory,http://parts.igem.org/Part:BBa_R0062,pACYC184,2,2,JinjuLee119,jinjulee119_partdb.xlsx
+9,BBa_K3328031,Reporter,http://parts.igem.org/Part:BBa_K3328031,pACYC184,2,2,JinjuLee119,jinjulee119_partdb.xlsx
+10,BBa_R0040,promoter,http://parts.igem.org/Part:BBa_R0040,PSB3C5,3,3,JinjuLee119,jinjulee119_partdb.xlsx
+11,BBa_B0034,RBS,http://parts.igem.org/Part:Bba_B0034,PSB3C5,3,3,JinjuLee119,jinjulee119_partdb.xlsx
+12,BBa_K3245008,coding,http://parts.igem.org/Part:BBa_K3245008,PSB3C5,3,3,JinjuLee119,jinjulee119_partdb.xlsx
+13,BBa_B0014,terminator,http://parts.igem.org/Part:BBa_B0014,PSB3C5,3,3,JinjuLee119,jinjulee119_partdb.xlsx
+1,BBa_R0011,Promoter,http://parts.igem.org/Part:BBa_R0011,pSB1C3 ,K0001,1,kun,Lelp27_partdb.xlsx
+2,BBa_K3669005,Promoter,Pcox4 promoter,NA,NA,4,kun,Lelp27_partdb.xlsx
+3,BBa_K3669006,Promoter,Pmin minimal gpdA promoter,NA,NA,4,kun,Lelp27_partdb.xlsx
+4,BBa_K3669012,CDS,sfGFP,NA,NA,4,kun,Lelp27_partdb.xlsx
+5,BBa_J23100,Promoter,http://parts.igem.org/Part:BBa_J23100,pSB1C3 ,K0002,6,kun,Lelp27_partdb.xlsx
+6,BBa_J23106,Promoter,http://parts.igem.org/Part:BBa_J23106,pSB1C3 ,K0003,6,kun,Lelp27_partdb.xlsx
+1,BBa_R0051,Promoter,http://parts.igem.org/Part:BBa_R0051,pSB1C3,1,1,seokjin-oh,seokjin-oh_partdb.xlsx
+2,BBa_R0034,RBS,http://parts.igem.org/Part:BBa_R0034,pSB1C3,1,1,seokjin-oh,seokjin-oh_partdb.xlsx
+3,BBa_E1010,RFP,http://parts.igem.org/Part:BBa_E1010,pSB1C3,1,1,seokjin-oh,seokjin-oh_partdb.xlsx
+4,BBa_R0015,Terminator,http://parts.igem.org/Part:BBa_R0015,pSB1C3,1,1,seokjin-oh,seokjin-oh_partdb.xlsx
+5,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,-,2,2,yoo-bh,seokjin-oh_partdb.xlsx
+6,BBa_J231059,Promoter,http://parts.igem.org/Part:BBa_J231059,-,3,3,yoo-bh,seokjin-oh_partdb.xlsx
+7,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,-,2,2,yoo-bh,seokjin-oh_partdb.xlsx
+8,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,-,2,2,yoo-bh,seokjin-oh_partdb.xlsx
+9,BBa_J23119,Promoter,http://parts.igem.org/Part:BBa_J23119,pUC20,4,4,seokjin-oh,seokjin-oh_partdb.xlsx
+10,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,pUC20,5,5,seokjin-oh,seokjin-oh_partdb.xlsx
+1,BBa_R0010,Promoter,http://parts.igem.org/Part:BBa_R0010,NA,1,1,th-kim310,th-kim310_partdb.xlsx
+2,BBa_K5670184,Reporter,http://parts.igem.org/Part:BBa_K5670184,NA,1,1,th-kim310,th-kim310_partdb.xlsx
+3,BBa_R0010,Promoter,http://parts.igem.org/Part:BBa_R0010,NA,2,2,th-kim310,th-kim310_partdb.xlsx
+4,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,NA,2,2,th-kim310,th-kim310_partdb.xlsx
+5,BBa_E1010,RFP,http://parts.igem.org/Part:BBa_E1010,NA,2,2,th-kim310,th-kim310_partdb.xlsx
+6,BBa_B0054,Terminator,http://parts.igem.org/Part:BBa_B0054,NA,2,2,th-kim310,th-kim310_partdb.xlsx
+7,BBa_J23100,Promoter,http://parts.igem.org/Part:BBa_J23100,BBa_J61002,3,3,th-kim310,th-kim310_partdb.xlsx
+1,BBa_J23119,Promoter,http://parts.igem.org/Part:BBa_J23119,pMTL84151,1,1,sb.h,treebird19_partdb.xlsx
+2,BBa_K2715010,RBS,http://parts.igem.org/Part:BBa_K2715010,pMTL84151,1,1,sb.h,treebird19_partdb.xlsx
+3,BBa_E0040,GFP,http://parts.igem.org/Part:BBa_E0040,pMTL84151,1,1,sb.h,treebird19_partdb.xlsx
+4,-,Terminator,-,pMTL84151,1,1,sb.h,treebird19_partdb.xlsx
+5,BBa_J23119,Promoter,http://parts.igem.org/Part:BBa_J23119,-,2,2,sb.h,treebird19_partdb.xlsx
+6,BBa_K2969998,RBS,http://parts.igem.org/Part:BBa_K2969998,-,2,2,sb.h,treebird19_partdb.xlsx
+7,BBa_K2969020,TEVsite,http://parts.igem.org/Part:BBa_K2969020,-,2,2,sb.h,treebird19_partdb.xlsx
+8,BBa_I746916,sfGFP,http://parts.igem.org/Part:BBa_I746916,-,2,2,sb.h,treebird19_partdb.xlsx
+9,BBa_K2969991,Terminator,http://parts.igem.org/Part:BBa_K2969991,-,2,2,sb.h,treebird19_partdb.xlsx
+10,BBa_R0062,Promoter,http://parts.igem.org/Part:BBa_R0062,-,3,3,sb.h,treebird19_partdb.xlsx
+11,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,-,3,3,sb.h,treebird19_partdb.xlsx
+12,BBa_E0040,GFP,http://parts.igem.org/Part:BBa_E0040,-,3,3,sb.h,treebird19_partdb.xlsx
+13,-,Terminator,-,-,3,3,sb.h,treebird19_partdb.xlsx
+1,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,NA,1,1,yoo-bh,yoo-bh_partdb.xlsx
+2,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,1,1,yoo-bh,yoo-bh_partdb.xlsx
+3,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,1,1,yoo-bh,yoo-bh_partdb.xlsx
+4,BBa_J23105,Promoter,http://parts.igem.org/Part:BBa_J23105,NA,2,1,yoo-bh,yoo-bh_partdb.xlsx
+5,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,2,1,yoo-bh,yoo-bh_partdb.xlsx
+6,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,2,1,yoo-bh,yoo-bh_partdb.xlsx
+7,BBa_J23101,Promoter,http://parts.igem.org/Part:BBa_J23101,NA,3,2,yoo-bh,yoo-bh_partdb.xlsx
+8,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,3,2,yoo-bh,yoo-bh_partdb.xlsx
+9,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,3,2,yoo-bh,yoo-bh_partdb.xlsx
+10,BBa_J23105,Promoter,http://parts.igem.org/Part:BBa_J23105,NA,4,2,yoo-bh,yoo-bh_partdb.xlsx
+11,BBa_B1001,Terminator,http://parts.igem.org/Part:BBa_B1001,NA,4,2,yoo-bh,yoo-bh_partdb.xlsx
+12,BBa_J06504,Reporter mCherry,http://parts.igem.org/Part:BBa_J06504,NA,4,2,yoo-bh,yoo-bh_partdb.xlsx
