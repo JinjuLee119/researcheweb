@@ -137,6 +137,13 @@ link: <https://github.com/JinjuLee119>
 -   팝업창 close 후 우측 상단 Push 클릭, 창 닫기
 -   terminal 창에서 commit하기
 
+```{r}
+git add .
+git commit -m "update"
+git push
+```
+
+
 
 ## 연구 결과 2 : 특정 바이오부품에 대한 iGEM 데이터 테이블 생성
 
@@ -336,8 +343,35 @@ link: <https://jinjulee119.github.io/researcheweb/>
 
 -   R markdown 파일을 html로 compile하여 웹사이트의 각 탭을 생성함.
 
--   "My ResearchE Class Website"라는 이름의 홈페이지를 만들어 Home,
-    About, Introduction 등 5개의 tab을 생성함.
+-   "My ResearchE Class Website"라는 이름의 홈페이지를 만들어 Home, About, Introduction 등 5개의 tab을 생성함.
+
+---
+title: "My ResearchE Class Website"
+---
+
+Hello, Website!
+
+- 위와 같이 R markdown 파일을 만들고, knit로 html 파일을 생성함.
+
+name: "My ResearchE Class Website"
+navbar:
+  title: "My ResearchE Class Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+      
+- 위 내용으로 text file을 작성, _site.yml 파일로 저장함.
+
+- 웹사이트의 각 탭에 필요한 내용을 작성할 수 있음.
+
+- 예시
+  Introduction : 생물학의 반복성과 재현성 극복을 위한 소프트웨어 (R, Rstudio, Rmarkdown, git) 활용, 협업 (data sharing), 합성생물학 데이터 수집 등
+  Method & Results : 배운 내용들 정리 (ex. Rstudio, git, rmarkdown 사용법, 합성생물학 데이터 수집 방법 등), submenu를 만들어서 각 주제별로 Rmd 파일 만드는 것도 좋음
+  Discussion
+
+    
 
 # 고찰
 

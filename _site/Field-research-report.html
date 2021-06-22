@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="이진주" />
+
+
+<title>Field research</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">My ResearchE Class Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="introduction.html">Introduction</a>
+</li>
+<li>
+  <a href="MethodnResults.html">Method&amp;Results</a>
+</li>
+<li>
+  <a href="discussion.html">Discussion</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Field research</h1>
+<h3 class="subtitle">This is subtitle</h3>
+<h4 class="author">이진주</h4>
+<h4 class="date">21 June, 2021</h4>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#연구-개요"><span class="toc-section-number">1</span> 연구 개요</a>
+<ul>
+<li><a href="#연구의-필요성"><span class="toc-section-number">1.1</span> 연구의 필요성</a></li>
+<li><a href="#연구-목표"><span class="toc-section-number">1.2</span> 연구 목표</a></li>
+</ul></li>
+<li><a href="#연구-방법"><span class="toc-section-number">2</span> 연구 방법</a>
+<ul>
+<li><a href="#연구-방법-1-data-collection_igem-rmarkdown-practice"><span class="toc-section-number">2.1</span> 연구 방법 1 : Data collection_iGEM &amp; Rmarkdown practice</a></li>
+<li><a href="#연구-방법-2-rmarkdown-practice-igem-report"><span class="toc-section-number">2.2</span> 연구 방법 2 : Rmarkdown practice &amp; iGEM report</a></li>
+</ul></li>
+<li><a href="#연구-결과"><span class="toc-section-number">3</span> 연구 결과</a>
+<ul>
+<li><a href="#연구-결과-1"><span class="toc-section-number">3.1</span> 연구 결과 1</a></li>
+<li><a href="#연구-결과-2"><span class="toc-section-number">3.2</span> 연구 결과 2</a></li>
+</ul></li>
+<li><a href="#고찰"><span class="toc-section-number">4</span> 고찰</a></li>
+</ul>
+</div>
+
+<div id="연구-개요" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> 연구 개요</h1>
+<p>R 프로그램을 이용하여 다양한 연구 결과를 종합, 정리하여 표준화할 수 있음.</p>
+<p>합성생물학 분야의 대회인 iGEM 사례를 분석하며 R 프로그램을 이용해 데이터 처리, 분석을 할 수 있음.</p>
+<div id="연구의-필요성" class="section level2" number="1.1">
+<h2 number="1.1"><span class="header-section-number">1.1</span> 연구의 필요성</h2>
+<p>R 프로그램을 이용하는 장점</p>
+<p>생물 분야는 시스템의 복잡성 때문에 실험 재현이 힘듬. 따라서 여러 연구자들의 반복 실험을 통해 특정 바이오파트의 표준화가 필요함.</p>
+<p>합성생물학은 생물학에 공학적 개념을 적용함으로써 생물 시스템을 비교적 예측 가능하도록 만들기 위한 분야이다. 전통적인 생물 실험이 연역적인 실험과 관찰, 발견에 기반했다면 합성생물학에서는 생물 시스템을 설계함으로써 발명으로 전환한다고 볼 수 있음.</p>
+<p>Rmarkdown의 철학과 필요성에 대한 참고영상</p>
+<p>link : <a href="https://www.youtube.com/watch?v=s9aWmU0atlQ&amp;ab_channel=RStudio" class="uri">https://www.youtube.com/watch?v=s9aWmU0atlQ&amp;ab_channel=RStudio</a></p>
+</div>
+<div id="연구-목표" class="section level2" number="1.2">
+<h2 number="1.2"><span class="header-section-number">1.2</span> 연구 목표</h2>
+<p>iGEM은 합성생물학 발전의 원동력이 되었다고 볼 수 있는데, 바이오파트를 표준화하거나 이를 이용한 유전자회로를 설계, 환경이나 보건 등의 목표를 가지고 연구하는 대회다.</p>
+<p>해당 현장연구 수업에서는 합성생물학의 개념을 정립하고, 사용된 부품/회로들의 정량적 데이터를 수집하여 재현성을 분석한다. 그 과정에서 R 프로그램을 이용하여 Rmarkdown/Rstudio를 활용한다.</p>
+<p>이곳에는 연구 목표를 적습니다.</p>
+<hr />
+</div>
+</div>
+<div id="연구-방법" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> 연구 방법</h1>
+<div id="연구-방법-1-data-collection_igem-rmarkdown-practice" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> 연구 방법 1 : Data collection_iGEM &amp; Rmarkdown practice</h2>
+<p>Rstudio는 R언어 외에도 다양한 언어를 이용한 프로그래밍을 지원하여 호환성이 좋으며, Rmarkdown, shiny 등을 활용하여 소통할 수 있음.</p>
+<p>Rmarkdown에서 code chunk를 추가하여 코드를 작성 (단축키 Ctrl+Alt+i)</p>
+<p>iGEM 홈페이지에서 5-10개 팀을 선정, 각 팀의 이름과 위키페이지 링크, 연구 내용 요약 등을 작성함.</p>
+<p>“igem team search_210329.pdf”</p>
+<p>연구 방법 1 입니다. 연구 방법 1 입니다. 이것은 <strong>굵은 글씨</strong> 입니다. 이것은 <strong>굵은 글씨</strong> 입니다. 이것은 <strong>굵은 글씨</strong> 입니다.<br />
+Knit 버튼의 역삼각형 표시를 누르면 HTML, PDF, Word 라는 메뉴가 있고 원하는 포멧의 문서로 선택하여 랜더링 하시면 해당 디렉토리에 파일이 생성됩니다.</p>
+</div>
+<div id="연구-방법-2-rmarkdown-practice-igem-report" class="section level2" number="2.2">
+<h2 number="2.2"><span class="header-section-number">2.2</span> 연구 방법 2 : Rmarkdown practice &amp; iGEM report</h2>
+<p>iGEM team 정리</p>
+<p>실험에 사용한 방법, 사용한 DNA 부품과 회로를 파악하고 데이터화함.</p>
+<p>R의 데이터는 vector로 처리되며, numeric, logical, character 등 크게 세 가지로 나눌 수 있음.</p>
+<p>vector 값의 유형을 알 수 있는 함수 : class()</p>
+<p>Combine function인 c()를 활용하여 vector 지정</p>
+<p>다음은 값을 저장하고 그 값의 유형을 알 수 있는 R 코드임.</p>
+<pre class="r"><code>v1 &lt;- c(1, 2, 3, 4)
+v2 &lt;- c(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;)
+class(v1)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>v_df &lt;- data.frame(v1,v2)
+v_df</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["v1"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["v2"],"name":[2],"type":["chr"],"align":["left"]}],"data":[{"1":"1","2":"a"},{"1":"2","2":"b"},{"1":"3","2":"c"},{"1":"4","2":"d"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+<hr />
+</div>
+</div>
+<div id="연구-결과" class="section level1" number="3">
+<h1 number="3"><span class="header-section-number">3</span> 연구 결과</h1>
+<div id="연구-결과-1" class="section level2" number="3.1">
+<h2 number="3.1"><span class="header-section-number">3.1</span> 연구 결과 1</h2>
+<p>이곳은 연구 결과1 입니다. 이곳은 연구 결과1 입니다. 이곳은 연구 결과1 입니다. 이곳은 연구 결과1 입니다. 이곳은 연구 결과1 입니다. 이곳은 연구 결과1 입니다. 이곳은 연구 결과1 입니다.</p>
+</div>
+<div id="연구-결과-2" class="section level2" number="3.2">
+<h2 number="3.2"><span class="header-section-number">3.2</span> 연구 결과 2</h2>
+<p>이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다. 이것은 연구 결과2 입니다.</p>
+</div>
+</div>
+<div id="고찰" class="section level1" number="4">
+<h1 number="4"><span class="header-section-number">4</span> 고찰</h1>
+<p>이곳은 고찰을 적는 곳 입니다. 이곳은 고찰을 적는 곳 입니다. 이곳은 고찰을 적는 곳 입니다. 이곳은 고찰을 적는 곳 입니다. 이곳은 고찰을 적는 곳 입니다. 이곳은 고찰을 적는 곳 입니다.</p>
+<p>tmpdat2 &lt;- igem_obs %&gt;% full_join(igem_device, by=c(“device_id”=“id”, “filename”=“filename”)) %&gt;% drop_na()</p>
+<p>tmpdat2 %&gt;% str</p>
+<p>위 코드를 수행할 경우 drop_na() 코드로 인해 NA가 포함된 모든 row가 제거됨.</p>
+<p>사용자에 따라 igem_obs의 promoter column이 없는 경우도 있고, strain이 비어있는 경우도 있기 때문에 위 코드 그대로 수행할 경우 tmpdat2가 0 obs. of 15 variables, 15개의 column을 가지고 있지만 data가 없는 table로 만들어짐.</p>
+<p>따라서 NA가 없는 column을 지정해주면 해당 column에서 NA가 있는 row만 제거해야 함.</p>
+<p>tmpdat2 &lt;- igem_obs %&gt;% full_join(igem_device, by=c(“device_id”=“id”, “filename”=“filename”))</p>
+<p>위 코드를 수행할 경우 table of 146 obs. of 15 variables</p>
+<p>tmpdat2 &lt;- igem_obs %&gt;% full_join(igem_device, by=c(“device_id”=“id”, “filename”=“filename”)) %&gt;% select(id,strain,indc,conc,concunit,value,valunit,incubhr,incubtemp,device_id,device_name,part_combination,filename) %&gt;% drop_na()</p>
+<p>위 코드를 수행할 경우 table of 115 obs. of 13 variables 생성됨.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
