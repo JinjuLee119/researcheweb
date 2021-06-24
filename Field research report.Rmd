@@ -1,7 +1,7 @@
 ---
-title: "Field research"
-subtitle: "This is subtitle"
-author: "이진주"
+title: "Field research E"
+subtitle: "합성생물학 기반 유전자회로 설계의 재현성 및 반복성에 관한 연구"
+author: "시스템생명공학전공 이진주"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   pdf_document:
@@ -24,39 +24,54 @@ editor_options:
 
 # 연구 개요
 
-R 프로그램을 이용하여 다양한 연구 결과를 종합, 정리하여 표준화할 수
-있음.
+-   R 프로그램을 이용하여 다양한 연구 결과를 종합, 정리하여 표준화할 수
+    있음.
 
-합성생물학 분야의 대회인 iGEM 사례를 분석하며 R 프로그램을 이용해 데이터
-처리, 분석을 할 수 있음.
+-   합성생물학 분야의 대회인 iGEM 사례를 분석하며 R 프로그램을 이용해
+    데이터를 처리, 분석할 수 있음.
+
+-   iGEM은 합성생물학 발전의 원동력이 되었다고 볼 수 있는데,
+    바이오파트를 표준화하거나 이를 이용한 유전자회로를 설계, 환경이나
+    보건 등의 목표를 가지고 연구하는 대회임.
+
+-   이번 현장연구 수업에서는 iGEM 연구팀 중 특정 바이오파트를 이용한
+    연구에 대한 데이터를 수집하고 이를 통합하여 데이터를 분석하고자 함.
 
 ## 연구의 필요성
 
--   R 프로그램을 이용하는 장점
+### 생물 분야는 시스템의 복잡성 때문에 실험 재현이 힘듬. 따라서 여러 연구자들의 반복 실험을 통해 특정 바이오파트의 표준화가 필요함.
 
--   생물 분야는 시스템의 복잡성 때문에 실험 재현이 힘듬. 따라서 여러
-    연구자들의 반복 실험을 통해 특정 바이오파트의 표준화가 필요함.
+### Synthetic Biology is INVENTION!
 
--   합성생물학은 생물학에 공학적 개념을 적용함으로써 생물 시스템을
-    비교적 예측 가능하도록 만들기 위한 분야임.
+-- 합성생물학은 생물학에 공학적 개념을 적용함으로써 생물 시스템을 비교적
+예측 가능하도록 만들기 위한 분야임.
 
--   전통적인 생물 실험이 연역적인 실험과 관찰, 발견에 기반했다면
-    합성생물학에서는 생물 시스템을 설계함으로써 발명으로 전환한다고 볼
-    수 있음.
+-- 전통적인 생물 실험이 연역적인 실험과 관찰, 발견에 기반했다면
+합성생물학에서는 특정 목적을 위해 생물 시스템을 설계, 합성함으로써
+발명의 측면으로 볼 수 있음
+
+-- 발명의 측면에서 보자면 vector map은 설계도, 즉 blueprint에 비유할 수
+있으며 logic gate는 설계한 시스템의 기능적 의미를 담고 있음.
+
+### Producibility & Repeatability
+
+-- Producibility : 다른 사람이 동일한 실험을 했을 때 동일한 결과가 나옴.
+
+-- Repeatability : 한 사람이 동일한 실험을 했을 때 동일한 결과가 반복됨.
 
 -   Rmarkdown의 철학과 필요성에 대한 참고영상
 
 link : <https://www.youtube.com/watch?v=s9aWmU0atlQ&ab_channel=RStudio>
 
+-   Replication Crisis : 반복성 없는 실험 (irreproducible research)에
+    의한 연구비 등의 소모
+
 ## 연구 목표
 
--   iGEM은 합성생물학 발전의 원동력이 되었다고 볼 수 있는데,
-    바이오파트를 표준화하거나 이를 이용한 유전자회로를 설계, 환경이나
-    보건 등의 목표를 가지고 연구하는 대회다.
+-   해당 현장연구 수업을 통해 합성생물학의 개념을 정립하고, 사용된
+    부품/회로들의 정량적 데이터를 수집하여 재현성을 분석할 수 있음.
 
--   해당 현장연구 수업에서는 합성생물학의 개념을 정립하고, 사용된
-    부품/회로들의 정량적 데이터를 수집하여 재현성을 분석한다. 그
-    과정에서 R 프로그램을 이용하여 Rmarkdown/Rstudio를 활용한다.
+-   데이터를 수집, 분석하는 과정에서 Rmarkdown/Rstudio를 활용한다.
 
 ------------------------------------------------------------------------
 
@@ -64,27 +79,53 @@ link : <https://www.youtube.com/watch?v=s9aWmU0atlQ&ab_channel=RStudio>
 
 ## 연구 방법 1 : Data collection_iGEM & Rmarkdown practice
 
-Rstudio는 R언어 외에도 다양한 언어를 이용한 프로그래밍을 지원하여
-호환성이 좋으며, Rmarkdown, shiny 등을 활용하여 소통할 수 있음.
+-   Rstudio는 R언어 외에도 다양한 언어를 이용한 프로그래밍을 지원하여
+    호환성이 좋으며, Rmarkdown, shiny 등을 활용하여 소통할 수 있음.
 
-Rmarkdown에서 code chunk를 추가하여 코드를 작성 (**단축키 Ctrl+Alt+i**)
+-   "\#", "\#\#", "\#\#\#"를 글머리에 작성하면 홈페이지의 목차를
+    단계별로 지정할 수 있음.
 
-iGEM 홈페이지에서 5-10개 팀을 선정, 각 팀의 이름과 위키페이지 링크, 연구
-내용 요약 등을 작성함.
+-   "\*"와 "-"를 글머리표로 사용할 수 있음.
 
--   팀이름
--   소속 조직
--   제목
--   분류
--   wiki page
--   해결하고자 하는 문제
--   주요 해결 방법
--   사용한 부품
+-   Rmarkdown에서 code chunk를 추가하여 코드를 작성 (**단축키
+    Ctrl+Alt+i**)
 
-"igem team search_210329.pdf"
+-   1,2회차 수업을 통해 iGEM 홈페이지에서 5-10개 팀을 선정, 각 팀의
+    이름과 위키페이지 링크, 연구 내용 요약 등을 작성함. 수집한 데이터는
+    아래와 같음.
 
-Knit 버튼에서 html, pdf, docx 중 원하는 포맷의 문서를 선택하면 해당
-디렉토리에 파일이 생성됨.
+-   R markdown 파일로 작성 후 Knit 버튼에서 html, pdf, docx 중 원하는
+    포맷의 문서를 선택하면 해당 디렉토리에 파일이 생성됨.
+
+-   팀이름, 소속 조직, 제목, 분류, wiki page, 해결하고자 하는 문제, 주요
+    해결 방법, 사용한 부품 등의 데이터 수집
+
+데이터 수집 예시
+
+### TU Kaiserlautern
+
+-   Year : 2019
+
+-   Organization : Technical University of Kaiserslautern / Germany
+
+-   Title : Chlamy Yummy - Revolutionizing plastic degradation by
+    introducing Chlamydomonas reinhardtii as a eukaryotic secretion
+    platform
+
+-   Track : Environment
+
+-   [wiki](https://2020.igem.org/Team:TU_Kaiserslautern)
+
+-   Subject : IPBES에 의한 동식물 멸종 / microtoxic pollutants에 의한
+    수질 오염
+
+-   Strategy : Green algae Chlamydomonas reinhardtii를 이용한
+    micropollutants 분해 효소 발현
+
+-   Used bioparts : MoClo system
+
+-   Vector map : pGEX-6P-1 expression vector
+
 
 ## 연구 방법 2 : Rmarkdown practice & iGEM report
 
@@ -135,41 +176,45 @@ link: <https://github.com/JinjuLee119>
 -   upload하고자 하는 파일 staged에 체크
 -   Commit message 입력 후 Commit 버튼 클릭
 -   팝업창 close 후 우측 상단 Push 클릭, 창 닫기
--   terminal 창에서 commit하기
-
-```{r}
-git add .
-git commit -m "update"
-git push
-```
-
-
+-   terminal 창에서 commit하기 git add . git commit -m "update" git push
 
 ## 연구 결과 2 : 특정 바이오부품에 대한 iGEM 데이터 테이블 생성
 
--   BBa_R0062 promoter
--   BBa_R0040
+-   할당된 프로모터 : BBa_R0062 promoter
+-   다음 할당된 프로모터 : BBa_R0040
 
 ### iGEM_team table
 
-iGEM 연구팀 이름, 프로젝트 이름, 연도, wiki페이지 링크 등을 포함한
-데이터 테이블 만들기
+-   iGEM 연구팀 이름, 프로젝트 이름, 연도, wiki페이지 링크 등을 포함한
+    데이터 테이블 만들기
 
-[igem_team.xlsx]
+```{r}
+library(readxl)
+
+igem_team1 <-read_excel("igem_promoters_JJ.xlsx",sheet=1,skip=0, col_names=T)
+igem_part1 <- read_excel("igem_promoters_JJ.xlsx", sheet=2, skip = 0, col_names=T)
+igem_obs1 <- read_excel("igem_promoters_JJ.xlsx", sheet=3, skip = 0, col_names=T)
+
+igem_team1
+```
 
 ### iGEM_part table
 
-연구에 이용된 바이오부품의 id, 유형, plasmid backbone을 포함한 데이터
-테이블 만들기
+-   연구에 이용된 바이오부품의 id, 유형, plasmid backbone을 포함한
+    데이터 테이블 만들기
 
-[igem_part.xlsx]
+```{r}
+igem_part1
+```
 
 ### iGEM_obs table
 
-바이오부품을 이용해 설계한 유전자회로로 실험한 결과를 정리한 데이터
-테이블 만들기
+-   바이오부품을 이용해 설계한 유전자회로로 실험한 결과를 정리한 데이터
+    테이블 만들기
 
-[igem_obs.xlsx]
+```{r}
+igem_obs1
+```
 
 ## 연구 결과 3 : 데이터 통합
 
@@ -195,30 +240,16 @@ write.csv(igem_part, "igem_part.csv", quote=F, row.names=F)
 
 library(readxl)
 
-igem_team \<- read_excel("igem_promoters.xlsx", sheet=1, skip = 0,
-col_names=T) igem_part \<- read_excel("igem_promoters.xlsx", sheet=2,
-skip = 0, col_names=T) igem_obs \<- read_excel("igem_promoters.xlsx",
-sheet=3, skip = 0, col_names=T)
 
 ## 연구 결과 4 : 원격 데이터 다운로드 및 통합
 
 ### 원격 데이터 다운로드
 
-dir.create("download") dir.create("download/promoter")
-
-destdir \<- "download/promoter/"
-
-url \<-
-"<https://github.com/jinjulee119/igemE2/raw/main/igem_promoters.xlsx>"
-download.file(url, paste0(destdir, "jinjulee119.xlsx"))
-
--   create.dir 함수로 download 폴더의 promoter 디렉토리를 만들 수 있음.
-
 -   download/promoter 위치를 destdir 변수에 저장하고 사용할 수 있음.
 
--   다운로드하고자 하는 주소의 대부분이 동일할 경우 위 코드에 아이디
-    부분만 바꿔서 중복 작성할 수 있지만, for문을 이용하여 코드 중복을
-    줄이고 효율적인 코딩이 가능함.
+-   다운로드하고자 하는 주소의 대부분이 동일할 경우 아이디 부분만 바꿔서
+    동일한 코드를 중복 작성할 수 있지만, 아래 예시처럼 for문을 이용하여
+    코드 중복을 줄이고 효율적인 코딩이 가능함.
 
 -   for문을 사용할 경우 데이터를 저장할 공간이 필요한데 이 때 list
     형태의 변수를 사용할 수 있음. list는 모든 타입의 데이터를 순차적으로
@@ -229,37 +260,37 @@ download.file(url, paste0(destdir, "jinjulee119.xlsx"))
 
 -   for문을 사용한 데이터 다운로드
 
-ids \<- c("hayleykim97", "th-kim310", "Lelp27", "aputron",
-"gpemelianov", "yoo-bh", "seokjin-oh", "treebird19", "jinjulee119" )
-homedirs \<- c(rep("igemE", 9), "igemE2")
+```{r}
+ids <- c("hayleykim97", 
+         "th-kim310",
+         "Lelp27",
+         "aputron",
+         "gpemelianov",
+         "yoo-bh",
+         "seokjin-oh",
+         "treebird19",
+         "jinjulee119"
+         )
+destdir <- "download/"
 
-destdir \<- "download/promoter/"
-
-i \<- 1 url \<- paste0("<https://github.com/>", ids[i], "/",
-homedirs[i], "/raw/main/igem_promoters.xlsx") destfile \<-
-paste0(destdir, ids[i], ".xlsx") download.file(url, destfile)
-
-for(i in 1:length(ids)){ url \<- paste0("<https://github.com/>", ids[i],
-"/", homedirs[i], "/raw/main/igem_promoters.xlsx") destfile \<-
-paste0(destdir, ids[i], ".xlsx") try(download.file(url, destfile))
-cat(i, "\n");flush.console() }
-
-### 다운로드한 엑셀 파일 읽기
+igem_team_cols <- c("id", "team_name", "project", "year", "wiki")
+igem_part_cols <- c("id", "BBid", "type", "link", "backbone", "device_id", "team_id", "user")
+igem_device_cols <- c("id", "device_name", "part_combination")
+igem_obs_cols <- c("id", "strain", "indc", "conc", "concunit", "value", "valunit", "incubhr", "incubtemp", "device_id", "link")
 
 library(readxl)
 
-filenames \<- dir(path = destdir, pattern = "\*.xlsx")
+for(i in 1:length(ids)){
+  url <-  paste0("https://github.com/", ids[i], "/", "researcheweb", "/raw/main/", destdir, "partdb.xlsx")
+  destfile <- paste0(destdir, ids[i], "_partdb.xlsx")
+  tempfile <- paste0(destdir, "temp_", ids[i], "_partdb.xlsx")
 
-tmp1 \<- list() tmp2 \<- list() tmp3 \<- list()
-
-for(i in 1:length(filenames)) { destfile \<- paste0(destdir,
-filenames[i]) tmp1[[i]] \<- read_excel(destfile, sheet = 1, skip = 0,
-col_names = T) tmp2[[i]] \<- read_excel(destfile, sheet = 2, skip = 0,
-col_names = T) tmp3[[i]] \<- read_excel(destfile, sheet = 3, skip = 0,
-col_names = T) }
-
-igem_team \<- do.call(bind_rows, tmp1) igem_part \<- do.call(bind_rows,
-tmp2) igem_obs \<- do.call(bind_rows, tmp3)
+  ## ===============================================
+  cat("\n");flush.console()
+  
+  
+}
+```
 
 ### 여러 사용자가 작성한 데이터 통합
 
@@ -272,26 +303,84 @@ tmp2) igem_obs \<- do.call(bind_rows, tmp3)
     ![Data
     processing](_site/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(1).png "Data processing")
 
-- 최종 데이터를 모두 합하면 동일한 ID를 갖는 데이터가 발생할 수 있음. 이 경우 최종 데이터 병합 후 테이블 간의 연관성이 유지되지 않음. 따라서 병합 전에 각 엑셀파일 이름에 사용자 id를 추가하여 데이터를 병합함.
+-   최종 데이터를 모두 합하면 동일한 ID를 갖는 데이터가 발생할 수 있음.
+    이 경우 최종 데이터 병합 후 테이블 간의 연관성이 유지되지 않음.
+    따라서 병합 전에 각 엑셀파일 이름에 사용자 id를 추가하여 데이터를
+    병합함.
 
-- 각 엑셀파일에 사용자 id를 추가하기 위해 tmp %>% mutate(filename=filenames[i]) 함수를 이용해 사용자 id를 추가함.
+-   각 엑셀파일에 사용자 id를 추가하기 위해 tmp %\>%
+    mutate(filename=filenames[i]) 함수를 이용해 사용자 id를 추가함.
+
+```{r}
+library(tidyverse)
+library(magrittr)
+filenames <- dir(path = destdir, pattern = "*_partdb.xlsx")
+
+
+tmp1 <- list()
+tmp2 <- list()
+tmp3 <- list()
+tmp4 <- list()
+
+for(i in 1:length(filenames)) {
+  destfile <- paste0(destdir, filenames[i])
+  
+  tmp <- read_excel(destfile, sheet = 1, skip = 0, col_names = T)
+  tmp %<>% mutate(across(!where(is.character), as.character)) 
+  tmp1[[i]] <- tmp %>% mutate(filename=filenames[i])
+  
+  tmp <- read_excel(destfile, sheet = 2, skip = 0, col_names = T)
+  tmp %<>% mutate(across(!where(is.character), as.character)) 
+  tmp2[[i]] <- tmp %>% mutate(filename=filenames[i])
+  
+  tmp <- read_excel(destfile, sheet = 3, skip = 0, col_names = T)
+  tmp %<>% mutate(across(!where(is.character), as.character)) 
+  tmp3[[i]] <- tmp %>% mutate(filename=filenames[i])
+  
+  tmp <- read_excel(destfile, sheet = 4, skip = 0, col_names = T) 
+  tmp %<>% mutate(across(!where(is.character), as.character)) 
+  tmp4[[i]] <- tmp %>% mutate(filename=filenames[i])
+  
+}
+
+igem_team <- do.call(bind_rows, tmp1)
+igem_part <- do.call(bind_rows, tmp2)
+igem_device <- do.call(bind_rows, tmp3)
+igem_obs <- do.call(bind_rows, tmp4)
+```
 
 ### 테이블 간 데이터 연결 및 통합
 
-- igem_part와 igem_team 데이터 테이블의 경우 team_id와 filename을 이용해 통합함.
+-   igem_part와 igem_team 데이터 테이블의 경우 team_id와 filename을
+    이용해 통합함.
+
+```{r}
+library(tidyverse)
+
+## new id 
+tmpdat <- igem_part %>% 
+  left_join(igem_team, by=c("team_id"="id", "filename"="filename"))
 
 tmpdat <- igem_part %>% 
   full_join(igem_team, by=c("team_id"="id", "filename"="filename")) %>% 
   select(id, BBid, type, backbone, device_id, user, filename, team_name, year) %>% 
   drop_na()
 
-- select(column name1, column name2, ...) 함수를 통해 필요한 변수만 선택하는 코드를 추가할 수 있음.
+tmpdat2 <- igem_obs %>%
+  full_join(igem_device, by=c("device_id"="id", "filename"="filename")) %>%
+  select(id,strain,indc,conc,concunit,value,valunit,incubhr,incubtemp,device_id,device_name,part_combination,filename) %>%
+  drop_na()
+```
 
-- drop_na()를 통해 선택한 변수의 데이터 중 NA가 있는 row를 제거할 수 있음.
+-   select(column name1, column name2, ...) 함수를 통해 필요한 변수만
+    선택하는 코드를 추가할 수 있음.
 
-- igem_obs와 igem_device는 device_id와 filename을 이용해 통합함.
+-   drop_na()를 통해 선택한 변수의 데이터 중 NA가 있는 row를 제거할 수
+    있음.
 
-- 통합한 데이터를 가지고 실험 결과를 그래프로 나타낼 수 있음.
+-   igem_obs와 igem_device는 device_id와 filename을 이용해 통합함.
+
+-   통합한 데이터를 가지고 실험 결과를 그래프로 나타낼 수 있음.
 
 ```{r}
 tmpdat %>% 
@@ -302,17 +391,15 @@ tmpd <-tmpdat2 %>%
   filter(unlist(lapply(partcomb, function(x){1 %in% x})) & filename=="gpemelianov_partdb.xlsx")
 
 finaldat <- tmpd
-finaldat %>% str
 
 tmpd <-tmpdat2 %>% 
   mutate(partcomb = lapply(strsplit(tmpdat2$part_combination, split=","), as.numeric)) %>% 
   filter(unlist(lapply(partcomb, function(x){5 %in% x})) & filename=="gpemelianov_partdb.xlsx")
 
 finaldat <- bind_rows(finaldat, tmpd)
-finaldat %>% str
 
 plotdat <- finaldat %>% 
-  select(-c(id, link, filename, part_combination, partcomb)) %>% 
+  select(-c(id, filename, part_combination, partcomb)) %>% 
   mutate(value = as.numeric(value))
 
 plotdat %>% str
@@ -326,14 +413,6 @@ ggplot(datasummary, aes(x=conc, y=mean)) +
   theme_bw()
 ```
 
-```{r}
-BBa_R0062
-
-```
-
-- 위 결과는 여러 사람이 모은 데이터가 아니고, 반복 측정된 데이터가 없어서 재현성을 확인할 수는 없음.
-
-- 다른 part들에 대해서도 동일한 방법으로 분석을 수행할 수 있으며, 여러 사람이 참여해서 데이터가 충분히 많아질 경우 하나의 부품이 얼마나 많은 편차를 가지고 있는지에 대한 의미 있는 결과를 얻을 수도 있음.
 
 
 
@@ -343,66 +422,139 @@ link: <https://jinjulee119.github.io/researcheweb/>
 
 -   R markdown 파일을 html로 compile하여 웹사이트의 각 탭을 생성함.
 
--   "My ResearchE Class Website"라는 이름의 홈페이지를 만들어 Home, About, Introduction 등 5개의 tab을 생성함.
+-   "My ResearchE Class Website"라는 이름의 홈페이지를 만들어 Home,
+    About, Introduction 등 5개의 tab을 생성함.
 
----
-title: "My ResearchE Class Website"
----
-
-Hello, Website!
-
-- 위와 같이 R markdown 파일을 만들고, knit로 html 파일을 생성함.
+-   홈페이지에 표시할 내용을 작성한 R markdown 파일을 만들고, knit로
+    html 파일을 생성함.
 
 name: "My ResearchE Class Website"
+
 navbar:
-  title: "My ResearchE Class Website"
-  left:
+
+title: "My ResearchE Class Website"
+
+left:
+
     - text: "Home"
+
       href: index.html
+
     - text: "About"
+
       href: about.html
-      
-- 위 내용으로 text file을 작성, _site.yml 파일로 저장함.
 
-- 웹사이트의 각 탭에 필요한 내용을 작성할 수 있음.
+-   위 내용으로 text file을 작성, \_site.yml 파일로 저장함.
 
-- 예시
-  Introduction : 생물학의 반복성과 재현성 극복을 위한 소프트웨어 (R, Rstudio, Rmarkdown, git) 활용, 협업 (data sharing), 합성생물학 데이터 수집 등
-  Method & Results : 배운 내용들 정리 (ex. Rstudio, git, rmarkdown 사용법, 합성생물학 데이터 수집 방법 등), submenu를 만들어서 각 주제별로 Rmd 파일 만드는 것도 좋음
-  Discussion
+-   웹사이트의 각 탭에 필요한 내용을 작성할 수 있음.
 
-    
+-   예시 Introduction : 생물학의 반복성과 재현성 극복을 위한 소프트웨어
+    (R, Rstudio, Rmarkdown, git) 활용, 협업 (data sharing), 합성생물학
+    데이터 수집 등 Method & Results : 배운 내용들 정리 (ex. Rstudio,
+    git, rmarkdown 사용법, 합성생물학 데이터 수집 방법 등), submenu를
+    만들어서 각 주제별로 Rmd 파일 만드는 것도 좋음 Discussion
 
 # 고찰
 
-이곳은 고찰을 적는 곳 입니다. 이곳은 고찰을 적는 곳 입니다. 이곳은
-고찰을 적는 곳 입니다. 이곳은 고찰을 적는 곳 입니다. 이곳은 고찰을 적는
-곳 입니다. 이곳은 고찰을 적는 곳 입니다.
+## Rstudio/Rmarkdown을 이용한 데이터 처리
 
-tmpdat2 \<- igem_obs %\>% full_join(igem_device, by=c("device_id"="id",
-"filename"="filename")) %\>% drop_na()
+- 여러 연구자가 수집하거나 실험한 데이터를 업로드하고, 서버에서 다운로드함으로써 데이터를 효과적으로 수집할 수 있음.
+
+- R markdown으로 원격 데이터를 일괄적으로 수집하고, 데이터를 분석하기가 용이함.
+
+- 이번 수업에서는 하나의 파트에 대해 한 사람이 조사한 결과에서만 데이터를 분석했지만 여러 연구자가 수행한 동일한 실험 데이터를 분석할 경우 Rstuio를 통해 해당 실험의 반복성을 확인할 수 있음.
+
+-   수업 중 예시로 주어진 I0500 외에 다른 바이오부품에 대해서도 분석을 수행할 수 있음.
+
+-   직접 데이터를 수집한 R0062에 대해서도 동일한 방법으로 그래프를
+    만들어봄. 그래프 작성 시 fill, scale_fill_brewer 등의 부가적인
+    기능을 부여하여 그래프를 작성함.
+    
+```{r}
+library(tidyverse)
+
+tmpdat %>% 
+  filter(BBid=="BBa_R0062")
+
+tmpd <-tmpdat2 %>% 
+  mutate(partcomb = lapply(strsplit(tmpdat2$part_combination, split=","), as.numeric)) %>% 
+  filter(unlist(lapply(partcomb, function(x){1 %in% x})) & filename=="jinjulee119_partdb.xlsx")
+
+finaldat <- tmpd
+
+tmpd <-tmpdat2 %>% 
+  mutate(partcomb = lapply(strsplit(tmpdat2$part_combination, split=","), as.numeric)) %>% 
+  filter(unlist(lapply(partcomb, function(x){5 %in% x})) & filename=="jinjulee119_partdb.xlsx")
+
+finaldat <- bind_rows(finaldat, tmpd)
+
+plotdat <- finaldat %>% 
+  select(-c(id, filename, part_combination, partcomb)) %>% 
+  mutate(value = as.numeric(value))
+
+plotdat %>% str
+
+datasummary <- plotdat %>% 
+  group_by(indc, conc) %>% 
+  summarise(mean=mean(value), n=n()) 
+
+ggplot(datasummary, aes(x=conc, y=mean, fill=conc)) +
+  geom_bar(stat="identity") +
+  theme_bw()+
+  scale_fill_brewer(palette="Blues")
+
+```
+
+
+-   위 결과는 여러 사람이 모은 데이터가 아니고, 반복 측정된 데이터가
+    없어서 재현성을 확인할 수는 없음.
+
+-   다른 part들에 대해서도 동일한 방법으로 분석을 수행할 수 있으며, 여러
+    사람이 참여해서 데이터가 충분히 많아질 경우 하나의 부품이 얼마나
+    많은 편차를 가지고 있는지에 대한 의미 있는 결과를 얻을 수도 있음.
+
+
+## 데이터 통합 과정에서의 오류 해결
+
+tmpdat2 \<- igem_obs %\>%
+
+full_join(igem_device, by=c("device_id"="id", "filename"="filename"))
+%\>%
+
+drop_na()
 
 tmpdat2 %\>% str
 
-위 코드를 수행할 경우 drop_na() 코드로 인해 NA가 포함된 모든 row가
-제거됨.
+-   위 코드를 수행할 경우 tmpmdat2 table에 변수만 15개고, 데이터가 모두
+    사라짐.
 
-사용자에 따라 igem_obs의 promoter column이 없는 경우도 있고, strain이
-비어있는 경우도 있기 때문에 위 코드 그대로 수행할 경우 tmpdat2가 0 obs.
-of 15 variables, 15개의 column을 가지고 있지만 data가 없는 table로
-만들어짐.
+-   0 obs. of 15 variables, 15개의 column을 가지고 있지만 data가 없는
+    table로 만들어짐.
 
-따라서 NA가 없는 column을 지정해주면 해당 column에서 NA가 있는 row만
-제거해야 함.
+-   이유를 파악해본 결과, igem_obs와 igem_device 데이터 테이블에 NA가
+    매우 많음. 사용자에 따라 igem_obs의 promoter column이 없는 경우도
+    있고, strain 데이터가 없는 경우도 발견됨.
 
-tmpdat2 \<- igem_obs %\>% full_join(igem_device, by=c("device_id"="id",
-"filename"="filename"))
+-   결과적으로 drop_na() 코드로 인해 NA가 포함된 모든 row가 제거됨.
 
-위 코드를 수행할 경우 table of 146 obs. of 15 variables
+-   따라서 이를 수정하기 위해 NA가 없는 column을 지정해주면 해당
+    column에서 NA가 있는 row만 제거해야 함.
 
-tmpdat2 \<- igem_obs %\>% full_join(igem_device, by=c("device_id"="id",
-"filename"="filename")) %\>%
+tmpdat2 \<- igem_obs %\>%
+
+full_join(igem_device, by=c("device_id"="id", "filename"="filename"))
+
+-   위 코드를 수행할 경우 table of 146 obs. of 15 variables
+
+tmpdat2 \<- igem_obs %\>%
+
+full_join(igem_device, by=c("device_id"="id", "filename"="filename"))
+%\>%
+
 select(id,strain,indc,conc,concunit,value,valunit,incubhr,incubtemp,device_id,device_name,part_combination,filename)
-%\>% drop_na()
+%\>%
 
-위 코드를 수행할 경우 table of 115 obs. of 13 variables 생성됨.
+drop_na()
+
+-   위 코드를 수행하여 NA가 다량 포함된 column을 제외하고 로딩할 경우
+    table of 115 obs. of 13 variables가 정상적으로 생성됨.

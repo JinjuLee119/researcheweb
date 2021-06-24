@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.3.31)  21 JUN 2021 08:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.3.31)  24 JUN 2021 05:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,34 +520,34 @@ Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 ))) (./Field-research-report.aux)
 \openout1 = `Field-research-report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 119.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 119.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 119.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 119.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 120.
 
 Package fontspec Info: latinmodern-math scale = 1.160089357468819.
 
@@ -576,7 +576,7 @@ t=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 11.60095pt on input line 119.
+(Font)              scaled to size 11.60095pt on input line 120.
 
 Package fontspec Info: latinmodern-math scale = 1.160089357468819.
 
@@ -615,18 +615,18 @@ t=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 11.60095pt on input line 119.
+(Font)              scaled to size 11.60095pt on input line 120.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 119.
+(Font)              `operators' in the math version `normal' on input line 120.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 119.
+ line 120.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 119.
+(Font)              `operators' in the math version `bold' on input line 120.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 119.
+t line 120.
 
 Package fontspec Info: latinmodern-math scale = 1.160089357468819.
 
@@ -713,15 +713,15 @@ t=math;language=dflt;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 119.
+(Font)              `symbols' in the math version `normal' on input line 120.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 119.
+t line 120.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 119.
+(Font)              `symbols' in the math version `bold' on input line 120.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 119.
+t line 120.
 
 Package fontspec Info: latinmodern-math scale = 1.160089357468819.
 
@@ -791,17 +791,17 @@ t=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-19.
+20.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 119.
+t line 120.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 119
+(Font)              `largesymbols' in the math version `bold' on input line 120
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 119.
-LaTeX Info: Redefining \microtypecontext on input line 119.
+t line 120.
+LaTeX Info: Redefining \microtypecontext on input line 120.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1220,7 +1220,7 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 119.
+Package hyperref Info: Link coloring OFF on input line 120.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1230,9 +1230,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 119.
-LaTeX Info: Redefining \pageref on input line 119.
-LaTeX Info: Redefining \nameref on input line 119.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1303,9 +1303,9 @@ dflt;mapping=tex-text;"
 Package: konames-utf 2015/07/06 v1.7 UTF-8 Hangul captions
 )
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 121.
+(Font)              scaled to size 17.28pt on input line 122.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 121.
+(Font)              scaled to size 12.0pt on input line 122.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1313,36 +1313,36 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 13.92114pt on input line 121.
+(Font)              scaled to size 13.92114pt on input line 122.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.28076pt on input line 121.
+(Font)              scaled to size 9.28076pt on input line 122.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.96057pt on input line 121.
+(Font)              scaled to size 6.96057pt on input line 122.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-21.
+22.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 13.92242pt on input line 121.
+(Font)              scaled to size 13.92242pt on input line 122.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.28162pt on input line 121.
+(Font)              scaled to size 9.28162pt on input line 122.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.96121pt on input line 121.
+(Font)              scaled to size 6.96121pt on input line 122.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 13.91968pt on input line 121.
+(Font)              scaled to size 13.91968pt on input line 122.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.27979pt on input line 121.
+(Font)              scaled to size 9.27979pt on input line 122.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.95984pt on input line 121.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 121
+(Font)              scaled to size 6.95984pt on input line 122.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 122
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 121
+LaTeX Font Info:    Trying to load font information for U+msb on input line 122
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1351,10 +1351,10 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
 LaTeX Font Warning: Font shape `TU/NanumGothic(0)/m/up' undefined
-(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 121.
+(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 122.
 
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
-(Font)              scaled to size 8.0pt on input line 121.
+(Font)              scaled to size 8.0pt on input line 122.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/up/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1362,11 +1362,11 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/up/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
-(Font)              scaled to size 6.0pt on input line 121.
+(Font)              scaled to size 6.0pt on input line 122.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 124.
+(Font)              scaled to size 14.4pt on input line 125.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 124.
+(Font)              scaled to size 14.4pt on input line 125.
 (./Field-research-report.toc
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
@@ -1402,50 +1402,70 @@ LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
 \tf@toc=\write4
 \openout4 = `Field-research-report.toc'.
 
-LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 136.
 [1
 
 ]
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 147.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 151.
+(Font)              scaled to size 7.0pt on input line 183.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 151.
-[2] [3]
-Underfull \hbox (badness 1960) in paragraph at lines 327--330
-[]\TU/NanumGothic(0)/m/up/10 tmpdat2 <- igem_obs %>% full_join(igem_device, by=
-c(“device_id”=“id”, “filename”=“filename”))
+(Font)              scaled to size 5.0pt on input line 183.
+[2] [3] [4] [5]
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/m/n' will be
+(Font)              scaled to size 9.84253pt on input line 480.
+[6]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 571.
+
+LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 576.
+
+[7]
+File: _site/다운로드 (1).png Graphic file (type bmp)
+<_site/다운로드 (1).png>
+[8] [9] [10] [11]
+Overfull \hbox (18.49498pt too wide) in paragraph at lines 803--803
+[]\TU/lmtt/m/n/10 ## []summarise()[] has grouped output by []indc[]. You can ov
+erride using the [].groups[] argument.[] 
  []
 
-
-Underfull \hbox (badness 1960) in paragraph at lines 349--353
-[]\TU/NanumGothic(0)/m/up/10 tmpdat2 <- igem_obs %>% full_join(igem_device, by=
-c(“device_id”=“id”, “filename”=“filename”))
+File: Field-research-report_files/figure-latex/unnamed-chunk-8-1.pdf Graphic fi
+le (type pdf)
+<use Field-research-report_files/figure-latex/unnamed-chunk-8-1.pdf>
+[12] [13]
+Overfull \hbox (18.49498pt too wide) in paragraph at lines 954--954
+[]\TU/lmtt/m/n/10 ## []summarise()[] has grouped output by []indc[]. You can ov
+erride using the [].groups[] argument.[] 
  []
 
-
-Overfull \hbox (108.57169pt too wide) in paragraph at lines 349--353
-\TU/NanumGothic(0)/m/up/10 %>% select(id,strain,indc,conc,concunit,value,valuni
-t,incubhr,incubtemp,device_id,device_name,part_combination,filename)
+[14]
+File: Field-research-report_files/figure-latex/unnamed-chunk-9-1.pdf Graphic fi
+le (type pdf)
+<use Field-research-report_files/figure-latex/unnamed-chunk-9-1.pdf>
+[15]
+Overfull \hbox (79.975pt too wide) in paragraph at lines 1024--1026
+[]\TU/NanumGothic(0)/m/up/10 select(id,strain,indc,conc,concunit,value,valunit,
+incubhr,incubtemp,device_id,device_name,part_combination,filename)
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1036.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1036.
 (./Field-research-report.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1036.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1036.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21904 strings out of 479819
- 362498 string characters out of 5895846
- 793075 words of memory out of 5000000
- 38724 multiletter control sequences out of 15000+600000
- 538893 words of font info for 90 fonts, out of 8000000 for 9000
+ 21963 strings out of 479819
+ 365031 string characters out of 5895846
+ 796196 words of memory out of 5000000
+ 38770 multiletter control sequences out of 15000+600000
+ 538917 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 59i,6n,122p,820b,2559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,6n,122p,854b,2559s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Field-research-report.pdf (4 pages).
+Output written on Field-research-report.pdf (16 pages).
